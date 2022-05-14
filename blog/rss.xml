@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>CurseForge Community Blog</title>
+        <link>https://cf-community.com/blog</link>
+        <description>CurseForge Community Blog</description>
+        <lastBuildDate>Sat, 14 May 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[A page with all collected community tools for CurseForge?!]]></title>
+            <link>https://cf-community.com/blog/2022/05/14/a-page-with-tools</link>
+            <guid>/2022/05/14/a-page-with-tools</guid>
+            <pubDate>Sat, 14 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Wait.. what? A new page, that contains all tools? Nah, that's can't be right.]]></description>
+            <content:encoded><![CDATA[<p>Wait.. what? A new page, that contains all tools? Nah, that's can't be right.</p><p>Well, not entirely, since we're only just starting up with collecting all the tools.</p><p>And we're starting with the tools that we've built ourselves to start with.</p><h1>New tools</h1><p>These are some of the tools we've built ourselves.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="cf-mc-server">CF-MC-Server<a class="hash-link" href="#cf-mc-server" title="Direct link to heading">​</a></h2><p>This one packs a punch. It's a CLI (Command Line Interface) that allows you to install a Minecraft server, with the extra feature, that you can download modpacks from CurseForge with it, and use as servers.</p><p>Made by: <a href="https://nolifeking85.tv" target="_blank" rel="noopener noreferrer">NoLifeKing85</a></p><h2 class="anchor anchorWithStickyNavbar_mojV" id="what-curseforge-project-is-this--cflookup">What CurseForge project is this? / CFLookup<a class="hash-link" href="#what-curseforge-project-is-this--cflookup" title="Direct link to heading">​</a></h2><p>This project aims to provide a way to look up CurseForge projects by their ID, and get the project's data, which is used to get the project's page.</p><p>And we also get really cool embeds, that you can use in your Discord server, Twitter, Facebook, LinkedIn, etc.</p><p>Made by: <a href="https://nolifeking85.tv" target="_blank" rel="noopener noreferrer">NoLifeKing85</a></p><h2 class="anchor anchorWithStickyNavbar_mojV" id="curseforge-api-client-net-nuget">CurseForge API Client (.NET, NuGet)<a class="hash-link" href="#curseforge-api-client-net-nuget" title="Direct link to heading">​</a></h2><p>This project aims to be a fully functional .NET client that allows you to use the CurseForge API,</p><p>All you need is an API key, your partner ID and a contact email to get started.</p><p>Made by: <a href="https://nolifeking85.tv" target="_blank" rel="noopener noreferrer">NoLifeKing85</a></p>]]></content:encoded>
+            <category>curseforge</category>
+            <category>tools</category>
+            <category>community</category>
+        </item>
+    </channel>
+</rss>
