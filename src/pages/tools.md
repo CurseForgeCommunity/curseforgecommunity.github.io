@@ -26,3 +26,7 @@ This project aims to be a fully functional .NET client that allows you to use th
 All you need is an API key, your partner ID and a contact email to get started.
 
 Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a>
+
+---
+
+If you know of some tools that we're missing, please let us know! Fill out an [issue over at our GitHub](https://github.com/CurseForgeCommunity/curseforgecommunity.github.io/issues/new/choose), and we'll add it to the list after a review!
