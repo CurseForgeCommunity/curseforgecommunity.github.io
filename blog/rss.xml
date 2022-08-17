@@ -4,10 +4,21 @@
         <title>CurseForge Community Blog</title>
         <link>https://cf-community.com/blog</link>
         <description>CurseForge Community Blog</description>
-        <lastBuildDate>Sat, 14 May 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Aug 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[New tools added!]]></title>
+            <link>https://cf-community.com/blog/2022/08/17/new-tools-added</link>
+            <guid>/2022/08/17/new-tools-added</guid>
+            <pubDate>Wed, 17 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[We've added a whoppin' five new tools!]]></description>
+            <content:encoded><![CDATA[<p>We've added a whoppin' <strong>five</strong> new tools!</p><p>CurseGradle, CurseForgeGradle, CurseMaven, "Upload to CurseForge" and cursebin!</p><p>Head on over to the <a href="/tools">tools</a>-page to look at the new additions!</p>]]></content:encoded>
+            <category>curseforge</category>
+            <category>tools</category>
+            <category>community</category>
+        </item>
         <item>
             <title><![CDATA[A page with all collected community tools for CurseForge?!]]></title>
             <link>https://cf-community.com/blog/2022/05/14/a-page-with-tools</link>
