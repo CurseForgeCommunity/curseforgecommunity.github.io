@@ -81,4 +81,20 @@ Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a>
 
 ---
 
+## <a href="https://www.cfwidget.com/" target="_blank">CFWidget</a> (Forum widget)
+
+Embed CurseForge project downloads anywhere on the web using widgets, and access project information programmatically through the JSON API to integrate automatic updates, content discovery and more into your projects.
+
+Made by: <a href="mailto:admin@cfwidget.com">Ralex</a> (<a href="https://github.com/LordRalex" target="_blank">GitHub</a>)
+
+---
+
+## <a href="https://curseupdate.com/" target="_blank">CurseUpdate</a>
+
+Enable the built-in Forge Update system with your mod with no code changes or hosting of websites. By using the power of CurseForge, let us manage the JSON so you can focus on creating your mods!
+
+Made by: <a href="mailto:admin@cfwidget.com">Ralex</a> (<a href="https://github.com/LordRalex" target="_blank">GitHub</a>)
+
+---
+
 If you know of some tools that we're missing, please let us know! Fill out an [issue over at our GitHub](https://github.com/CurseForgeCommunity/curseforgecommunity.github.io/issues/new/choose), and we'll add it to the list after a review!
