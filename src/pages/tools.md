@@ -89,7 +89,7 @@ Made by: <a href="mailto:admin@cfwidget.com">Ralex</a> (<a href="https://github.
 
 ---
 
-## <a href="https://curseupdate.com/" target="_blank">CurseUpdate</a>
+## <a href="https://curseupdate.com/" target="_blank">CurseUpdate</a> (Mod library)
 
 Enable the built-in Forge Update system with your mod with no code changes or hosting of websites. By using the power of CurseForge, let us manage the JSON so you can focus on creating your mods!
 
