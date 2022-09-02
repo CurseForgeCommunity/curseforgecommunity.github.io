@@ -101,7 +101,7 @@ Made by: <a href="mailto:admin@cfwidget.com">Ralex</a> (<a href="https://github.
 
 A little badge/shield for minecraft mods/packs/... on CurseForge.
 
-Made by: <a href="https://twitter.com/way2muchnoise" target="_blank">way2muchnoise</a> (<a href="https://github.com/way2muchnoise" target="_blank">GitHub)
+Made by: <a href="https://twitter.com/way2muchnoise" target="_blank">way2muchnoise</a> (<a href="https://github.com/way2muchnoise" target="_blank">GitHub</a>)
 
 ---
 
