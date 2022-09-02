@@ -97,4 +97,12 @@ Made by: <a href="mailto:admin@cfwidget.com">Ralex</a> (<a href="https://github.
 
 ---
 
+## <a href="https://cf.way2muchnoise.eu/" target="_blank">CurseForge Badges</a> (SVG badges)
+
+A little badge/shield for minecraft mods/packs/... on CurseForge.
+
+Made by: <a href="https://twitter.com/way2muchnoise" target="_blank">way2muchnoise</a> (<a href="https://github.com/way2muchnoise" target="_blank">GitHub)
+
+---
+
 If you know of some tools that we're missing, please let us know! Fill out an [issue over at our GitHub](https://github.com/CurseForgeCommunity/curseforgecommunity.github.io/issues/new/choose), and we'll add it to the list after a review!
