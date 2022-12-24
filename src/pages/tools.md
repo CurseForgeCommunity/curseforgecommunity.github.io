@@ -17,7 +17,7 @@ These projects are not made by or maintained by Overwolf/CurseForge, but made by
 
 This one packs a punch. It's a CLI (Command Line Interface) that allows you to install a Minecraft server, with the extra feature, that you can download modpacks from CurseForge with it, and use as servers.
 
-Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a>
+Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a> (<a href="https://github.com/itssimple" target="_blank">GitHub</a>)
 
 ---
 
@@ -27,7 +27,7 @@ This project aims to provide a way to look up CurseForge projects by their ID, a
 
 And we also get really cool embeds, that you can use in your Discord server, Twitter, Facebook, LinkedIn, etc.
 
-Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a>
+Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a> (<a href="https://github.com/itssimple" target="_blank">GitHub</a>)
 
 ---
 
@@ -37,7 +37,7 @@ This project aims to be a fully functional .NET client that allows you to use th
 
 All you need is an API key, your partner ID and a contact email to get started.
 
-Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a>
+Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a> (<a href="https://github.com/itssimple" target="_blank">GitHub</a>)
 
 ---
 
@@ -77,7 +77,7 @@ Made by: <a href="http://www.wynprice.com/" target="_blank">Wyn Price</a> (<a hr
 
 A hastebin instance, meant to host end user logs from i.e. Minecraft crashes and other logs.
 
-Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a>
+Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a> (<a href="https://github.com/itssimple" target="_blank">GitHub</a>)
 
 ---
 
@@ -102,6 +102,16 @@ Made by: <a href="mailto:admin@cfwidget.com">Ralex</a> (<a href="https://github.
 A little badge/shield for minecraft mods/packs/... on CurseForge.
 
 Made by: <a href="https://twitter.com/way2muchnoise" target="_blank">way2muchnoise</a> (<a href="https://github.com/way2muchnoise" target="_blank">GitHub</a>)
+
+---
+
+## <a href="https://github.com/CurseForgeCommunity/cf-troubleshooter-win" target="_blank">CurseForge (unofficial) Troubleshooter</a> (Troubleshooter for Windows)
+
+A small troubleshooting utility that lets you find out if you've accidentally activated Compatibility mode for
+either CurseForge, Minecraft or java, or if you have strange entries in your hosts file that doesn't let you
+play Minecraft like you should be able to, and also contains a very simple duplicate mod checker.
+
+Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a> (<a href="https://github.com/itssimple" target="_blank">GitHub</a>)
 
 ---
 
