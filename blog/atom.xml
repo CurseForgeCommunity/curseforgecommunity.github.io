@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cf-community.com/blog</id>
     <title>CurseForge Community Blog</title>
-    <updated>2022-08-17T00:00:00.000Z</updated>
+    <updated>2022-12-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cf-community.com/blog"/>
     <subtitle>CurseForge Community Blog</subtitle>
     <icon>https://cf-community.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Merry Christmas!]]></title>
+        <id>/2022/12/24/merry-christmas</id>
+        <link href="https://cf-community.com/blog/2022/12/24/merry-christmas"/>
+        <updated>2022-12-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Merry Christmas everyone and happy holidays!]]></summary>
+        <content type="html"><![CDATA[<p>Merry Christmas everyone and happy holidays!</p><p>We here at the CurseForge community wish you all a great time!</p><p>I've added my own troubleshooter to the collection of tools, and will add some short documentation for it <em>soon</em>™️</p>]]></content>
+        <author>
+            <name>NoLifeKing85</name>
+            <uri>https://nolifeking85.tv</uri>
+        </author>
+        <category label="curseforge" term="curseforge"/>
+        <category label="tools" term="tools"/>
+        <category label="community" term="community"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New tools added!]]></title>
         <id>/2022/08/17/new-tools-added</id>

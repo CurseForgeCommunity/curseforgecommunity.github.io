@@ -4,10 +4,21 @@
         <title>CurseForge Community Blog</title>
         <link>https://cf-community.com/blog</link>
         <description>CurseForge Community Blog</description>
-        <lastBuildDate>Wed, 17 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Dec 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Merry Christmas!]]></title>
+            <link>https://cf-community.com/blog/2022/12/24/merry-christmas</link>
+            <guid>/2022/12/24/merry-christmas</guid>
+            <pubDate>Sat, 24 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Merry Christmas everyone and happy holidays!]]></description>
+            <content:encoded><![CDATA[<p>Merry Christmas everyone and happy holidays!</p><p>We here at the CurseForge community wish you all a great time!</p><p>I've added my own troubleshooter to the collection of tools, and will add some short documentation for it <em>soon</em>™️</p>]]></content:encoded>
+            <category>curseforge</category>
+            <category>tools</category>
+            <category>community</category>
+        </item>
         <item>
             <title><![CDATA[New tools added!]]></title>
             <link>https://cf-community.com/blog/2022/08/17/new-tools-added</link>
