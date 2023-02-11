@@ -115,4 +115,21 @@ Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a> (<a 
 
 ---
 
+## <a href="https://github.com/Matyrobbrt/CurseForgeJavaAPI" target="_blank">CurseForgeJavaAPI</a> (API Client)
+
+A Java client for the CFCore API and the Upload API.
+
+Made by: <a href="https://github.com/Matyrobbrt" target="_blank">Matyrobbrt</a> (<a href="https://github.com/Matyrobbrt" target="_blank">GitHub</a>)
+
+<!---
+Empty Template for new tools
+---
+
+## <a href="" target="_blank"></a> ()
+
+Made by: <a href="" target="_blank"></a> (<a href="" target="_blank"></a>)
+-->
+
+---
+
 If you know of some tools that we're missing, please let us know! Fill out an [issue over at our GitHub](https://github.com/CurseForgeCommunity/curseforgecommunity.github.io/issues/new/choose), and we'll add it to the list after a review!
