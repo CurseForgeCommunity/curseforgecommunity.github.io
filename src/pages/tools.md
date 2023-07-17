@@ -121,6 +121,17 @@ A Java client for the CFCore API and the Upload API.
 
 Made by: <a href="https://github.com/Matyrobbrt" target="_blank">Matyrobbrt</a> (<a href="https://github.com/Matyrobbrt" target="_blank">GitHub</a>)
 
+---
+
+## <a href="https://github.com/nanonestor/universalator/wiki" target="_blank">Universalator</a> (Minecraft Server installer/launcher script file)
+
+The Universalator is a file (BAT script) which can be used to install and launch modded Minecraft server files on PCs.
+- Use it to create custom servers on your PC!
+- Use it to launch existing published server packs on your PC!
+- Include it in server packs to be published for others - as a server files install/launch solution!
+
+Made by: <a href="https://github.com/nanonestor" target="_blank">Briar Thrain</a>
+
 <!---
 Empty Template for new tools
 ---
