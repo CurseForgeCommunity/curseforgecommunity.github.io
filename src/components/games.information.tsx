@@ -545,7 +545,7 @@ const GamesInformation : GameInfoItem[] = [
 		"avatarUrl": "https://media.forgecdn.net/avatars/652/747/638054969273937292.png",
 		appWeb: [AppWeb.OverwolfApp],
 		os: [OperatingSystem.Windows],
-		info: "You should probably use CKAN instead"
+		info: "You should probably use <a href=\"https://github.com/KSP-CKAN/CKAN/wiki/User-guide\" target\"_blank\">CKAN</a> instead"
 	},
 	{
 		"id": 496,

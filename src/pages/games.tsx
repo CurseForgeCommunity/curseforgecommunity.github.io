@@ -13,7 +13,7 @@ function GameInformation(game: GameInfoItem) {
 				<td>{game.name}</td>
 				<td>{game.appWeb?.map(i => i.toString()).sort().join(", ") ?? AppWeb.Unknown}</td>
 				<td>{game.os?.map(i => i.toString()).sort().join(", ") ?? OperatingSystem.Unknown}</td>
-				<td>{game.info}</td>
+				<td dangerouslySetInnerHTML={{ __html: game.info }}></td>
 			</tr>
 		</>
 	);
