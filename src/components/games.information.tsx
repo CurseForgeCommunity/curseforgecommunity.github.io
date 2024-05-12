@@ -1,3 +1,5 @@
+import React from "react";
+
 export type GameInfoItem = {
 	id: number;
 	name: string;
@@ -5,7 +7,7 @@ export type GameInfoItem = {
 	avatarUrl: string;
 	appWeb?: AppWeb[];
 	os?: OperatingSystem[];
-	info?: string;
+	info?: JSX.Element;
 }
 
 export enum AppWeb {
@@ -33,7 +35,7 @@ const GamesInformation : GameInfoItem[] = [
 		avatarUrl: "https://media.forgecdn.net/avatars/652/748/638054969446166748.png",
 		appWeb: [AppWeb.Standalone, AppWeb.OverwolfApp, AppWeb.Web],
 		os: [OperatingSystem.Windows, OperatingSystem.Linux, OperatingSystem.Mac],
-		"info": "Does not behave well with Microsoft Gamepass"
+		"info": <>Does not behave well with Microsoft Gamepass</>
 	},
 	{
 		"id": 65,
@@ -217,7 +219,7 @@ const GamesInformation : GameInfoItem[] = [
 		"avatarUrl": "https://media.forgecdn.net/avatars/858/778/638264250839731334.png",
 		os: [OperatingSystem.Windows, OperatingSystem.PlayStation, OperatingSystem.Xbox],
 		appWeb: [AppWeb.InGame],
-		info: "Modding is done from in-game only."
+		info: <>Modding is done from in-game only.</>
 	},
 	{
 		"id": 83387,
@@ -370,7 +372,7 @@ const GamesInformation : GameInfoItem[] = [
 		"avatarUrl": "https://media.forgecdn.net/avatars/936/141/638413534976321166.jpg",
 		os: [OperatingSystem.Windows],
 		appWeb: [AppWeb.Standalone, AppWeb.OverwolfApp, AppWeb.Web],
-		info: "Does not behave well with Microsoft Gamepass"
+		info: <>Does not behave well with Microsoft Gamepass</>
 	},
 	{
 		"id": 85440,
@@ -545,7 +547,7 @@ const GamesInformation : GameInfoItem[] = [
 		"avatarUrl": "https://media.forgecdn.net/avatars/652/747/638054969273937292.png",
 		appWeb: [AppWeb.OverwolfApp],
 		os: [OperatingSystem.Windows],
-		info: "You should probably use <a href=\"https://github.com/KSP-CKAN/CKAN/wiki/User-guide\" target\"_blank\">CKAN</a> instead"
+		info: <>You should probably use <a href={"https://github.com/KSP-CKAN/CKAN/wiki/User-guide"} target={"_blank"}>CKAN</a> instead</>
 	},
 	{
 		"id": 496,
