@@ -382,7 +382,9 @@ const GamesInformation : GameInfoItem[] = [
 		"id": 85913,
 		"name": "Manor Lords",
 		"image": "https://media.forgecdn.net/game-box-art/85913_f4c8d148-de72-472d-9ed9-f6f2f066847a.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/981/997/638489322552047262.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/981/997/638489322552047262.png",
+		appWeb: [AppWeb.Web],
+
 	},
 	{
 		"id": 5001,
