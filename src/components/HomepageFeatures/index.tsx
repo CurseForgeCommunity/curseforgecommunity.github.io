@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<"svg">>;
+  Svg?: React.ComponentType<React.ComponentProps<"svg">>;
   description: JSX.Element;
 };
 
@@ -20,14 +20,26 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+  {
+    title: "CurseForge Games Support Information",
+    description: (
+      <>
+        Find information about the games supported by CurseForge, and the
+        platforms that they are available on.<br />
+        <a href="/games">CurseForge Games</a>
+      </>
+    ),
+  }
 ];
 
 function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx("col col--12")}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
+      {Svg ?
+        <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+        : null}
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>

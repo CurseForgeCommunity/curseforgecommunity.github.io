@@ -50,6 +50,11 @@ const config = {
         title: "CurseForge Community",
         items: [
           {
+            to: "/games",
+            position: "left",
+            label: "Games",
+          },
+          {
             to: "/tools",
             position: "left",
             label: "Tools",
