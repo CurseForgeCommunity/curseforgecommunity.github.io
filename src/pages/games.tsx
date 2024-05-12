@@ -9,7 +9,7 @@ function GameInformation(game: GameInfoItem) {
 	return (
 		<>
 			<tr>
-				<td style={{ verticalAlign: "middle" }}>{game.avatarUrl ? <img src={game.avatarUrl} width={32} /> : null}</td>
+				<td style={{ verticalAlign: "middle" }}>{game.avatarUrl ? <img src={game.avatarUrl} width={32} /> : game.image ? <img src={game.image} width={32} /> : null}</td>
 				<td>{game.name}</td>
 				<td>{game.appWeb?.map(i => i.toString()).sort().join(", ") ?? AppWeb.Unknown}</td>
 				<td>{game.os?.map(i => i.toString()).sort().join(", ") ?? OperatingSystem.Unknown}</td>
