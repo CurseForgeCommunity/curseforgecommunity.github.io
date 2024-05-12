@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[484],{5095:e=>{e.exports=JSON.parse('{"label":"curseforge","permalink":"/blog/tags/curseforge","allTagsPath":"/blog/tags","count":3}')}}]);
