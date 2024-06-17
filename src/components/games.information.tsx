@@ -34,8 +34,7 @@ const GamesInformation : GameInfoItem[] = [
 		image: "https://static-cdn.jtvnw.net/ttv-boxart/Minecraft-285x380.jpg",
 		avatarUrl: "https://media.forgecdn.net/avatars/652/748/638054969446166748.png",
 		appWeb: [AppWeb.Standalone, AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Linux, OperatingSystem.Mac],
-		"info": <>Does not behave well with Microsoft Gamepass</>
+		os: [OperatingSystem.Windows, OperatingSystem.Linux, OperatingSystem.Mac]
 	},
 	{
 		"id": 65,
