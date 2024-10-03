@@ -909,17 +909,17 @@ var clsx_m = __webpack_require__(53);
 var Layout = __webpack_require__(1323);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useDocusaurusContext.js
 var useDocusaurusContext = __webpack_require__(4586);
-;// CONCATENATED MODULE: ./src/pages/index.module.css
+;// ./src/pages/index.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const index_module = ({"heroBanner":"heroBanner_qdFl","buttons":"buttons_AeoN"});
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
 var esm_extends = __webpack_require__(8168);
-;// CONCATENATED MODULE: ./src/components/HomepageFeatures/styles.module.css
+;// ./src/components/HomepageFeatures/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles_module = ({"features":"features_t9lD","featureSvg":"featureSvg_GfXr"});
-;// CONCATENATED MODULE: ./src/components/HomepageFeatures/index.tsx
+;// ./src/components/HomepageFeatures/index.tsx
 const FeatureList=[{title:"We have The Tools",Svg:(__webpack_require__(870)/* ["default"] */ .A),description:/*#__PURE__*/react.createElement(react.Fragment,null,"Find all the ",/*#__PURE__*/react.createElement("a",{href:"/tools"},"CurseForge community tools")," here, and if something is missing, don't be afraid to tell us about it, so that we can add it to this site.")},{title:"CurseForge Games Support Information",description:/*#__PURE__*/react.createElement(react.Fragment,null,"Find information about the games supported by CurseForge, and the platforms that they are available on.",/*#__PURE__*/react.createElement("br",null),/*#__PURE__*/react.createElement("a",{href:"/games"},"CurseForge Games"))}];function Feature(_ref){let{title,Svg,description}=_ref;return/*#__PURE__*/react.createElement("div",{className:(0,clsx_m/* default */.A)("col col--12")},Svg?/*#__PURE__*/react.createElement("div",{className:"text--center"},/*#__PURE__*/react.createElement(Svg,{className:styles_module.featureSvg,role:"img"})):null,/*#__PURE__*/react.createElement("div",{className:"text--center padding-horiz--md"},/*#__PURE__*/react.createElement("h3",null,title),/*#__PURE__*/react.createElement("p",null,description)));}function HomepageFeatures(){return/*#__PURE__*/react.createElement("section",{className:styles_module.features},/*#__PURE__*/react.createElement("div",{className:"container"},/*#__PURE__*/react.createElement("div",{className:"row"},FeatureList.map((props,idx)=>/*#__PURE__*/react.createElement(Feature,(0,esm_extends/* default */.A)({key:idx},props))))));}
-;// CONCATENATED MODULE: ./src/pages/index.tsx
+;// ./src/pages/index.tsx
 function HomepageHeader(){const{siteConfig}=(0,useDocusaurusContext/* default */.A)();return/*#__PURE__*/react.createElement("header",{className:(0,clsx_m/* default */.A)("hero hero--primary",index_module.heroBanner)},/*#__PURE__*/react.createElement("div",{className:"container"},/*#__PURE__*/react.createElement("h1",{className:"hero__title"},siteConfig.title),/*#__PURE__*/react.createElement("p",{className:"hero__subtitle"},siteConfig.tagline)));}function Home(){const{siteConfig}=(0,useDocusaurusContext/* default */.A)();return/*#__PURE__*/react.createElement(Layout/* default */.A,{title:`${siteConfig.title}`,description:"Tools by the CurseForge community members"},/*#__PURE__*/react.createElement(HomepageHeader,null),/*#__PURE__*/react.createElement("main",null,/*#__PURE__*/react.createElement(HomepageFeatures,null)));}
 
 /***/ })

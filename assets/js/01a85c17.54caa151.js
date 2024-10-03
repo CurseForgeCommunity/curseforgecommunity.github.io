@@ -20,10 +20,10 @@ var Layout = __webpack_require__(1323);
 var Link = __webpack_require__(5489);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Translate.js + 1 modules
 var Translate = __webpack_require__(1312);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogSidebar/Desktop/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogSidebar/Desktop/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles_module = ({"sidebar":"sidebar_TMXw","sidebarItemTitle":"sidebarItemTitle_V4zb","sidebarItemList":"sidebarItemList_uHd5","sidebarItem":"sidebarItem_spIe","sidebarItemLink":"sidebarItemLink_eqrF","sidebarItemLinkActive":"sidebarItemLinkActive_XZSJ"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogSidebar/Desktop/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogSidebar/Desktop/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -32,7 +32,7 @@ var Translate = __webpack_require__(1312);
  */function BlogSidebarDesktop(_ref){let{sidebar}=_ref;return/*#__PURE__*/react.createElement("aside",{className:"col col--3"},/*#__PURE__*/react.createElement("nav",{className:(0,clsx_m/* default */.A)(styles_module.sidebar,'thin-scrollbar'),"aria-label":(0,Translate/* translate */.T)({id:'theme.blog.sidebar.navAriaLabel',message:'Blog recent posts navigation',description:'The ARIA label for recent posts in the blog sidebar'})},/*#__PURE__*/react.createElement("div",{className:(0,clsx_m/* default */.A)(styles_module.sidebarItemTitle,'margin-bottom--md')},sidebar.title),/*#__PURE__*/react.createElement("ul",{className:(0,clsx_m/* default */.A)(styles_module.sidebarItemList,'clean-list')},sidebar.items.map(item=>/*#__PURE__*/react.createElement("li",{key:item.permalink,className:styles_module.sidebarItem},/*#__PURE__*/react.createElement(Link/* default */.A,{isNavLink:true,to:item.permalink,className:styles_module.sidebarItemLink,activeClassName:styles_module.sidebarItemLinkActive},item.title))))));}
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/contexts/navbarSecondaryMenu/content.js
 var content = __webpack_require__(5600);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogSidebar/Mobile/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogSidebar/Mobile/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -41,7 +41,7 @@ var content = __webpack_require__(5600);
  */function BlogSidebarMobileSecondaryMenu(_ref){let{sidebar}=_ref;return/*#__PURE__*/react.createElement("ul",{className:"menu__list"},sidebar.items.map(item=>/*#__PURE__*/react.createElement("li",{key:item.permalink,className:"menu__list-item"},/*#__PURE__*/react.createElement(Link/* default */.A,{isNavLink:true,to:item.permalink,className:"menu__link",activeClassName:"menu__link--active"},item.title))));}function BlogSidebarMobile(props){return/*#__PURE__*/react.createElement(content/* NavbarSecondaryMenuFiller */.GX,{component:BlogSidebarMobileSecondaryMenu,props:props});}
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/hooks/useWindowSize.js
 var useWindowSize = __webpack_require__(4581);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogSidebar/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogSidebar/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -49,7 +49,7 @@ var useWindowSize = __webpack_require__(4581);
  * LICENSE file in the root directory of this source tree.
  */function BlogSidebar(_ref){let{sidebar}=_ref;const windowSize=(0,useWindowSize/* useWindowSize */.l)();if(!sidebar?.items.length){return null;}// Mobile sidebar doesn't need to be server-rendered
 if(windowSize==='mobile'){return/*#__PURE__*/react.createElement(BlogSidebarMobile,{sidebar:sidebar});}return/*#__PURE__*/react.createElement(BlogSidebarDesktop,{sidebar:sidebar});}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogLayout/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogLayout/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -78,7 +78,7 @@ var BlogLayout = __webpack_require__(4529);
 var Tag = __webpack_require__(5465);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Translate.js + 1 modules
 var Translate = __webpack_require__(1312);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/tagsUtils.js
+;// ./node_modules/@docusaurus/theme-common/lib/utils/tagsUtils.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -90,10 +90,10 @@ var Translate = __webpack_require__(1312);
  */function listTagsByLetters(tags){const groups={};Object.values(tags).forEach(tag=>{const initial=getTagLetter(tag.label);groups[initial]??(groups[initial]=[]);groups[initial].push(tag);});return Object.entries(groups)// Sort letters
 .sort((_ref,_ref2)=>{let[letter1]=_ref;let[letter2]=_ref2;return letter1.localeCompare(letter2);}).map(_ref3=>{let[letter,letterTags]=_ref3;// Sort tags inside a letter
 const sortedTags=letterTags.sort((tag1,tag2)=>tag1.label.localeCompare(tag2.label));return{letter,tags:sortedTags};});}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TagsListByLetter/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TagsListByLetter/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles_module = ({"tag":"tag_Shcx"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TagsListByLetter/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TagsListByLetter/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -108,7 +108,7 @@ var ThemeClassNames = __webpack_require__(7559);
 var SearchMetadata = __webpack_require__(1707);
 // EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
 var clsx_m = __webpack_require__(53);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogTagsListPage/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/BlogTagsListPage/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -133,10 +133,10 @@ var react = __webpack_require__(6540);
 var clsx_m = __webpack_require__(53);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js + 1 modules
 var Link = __webpack_require__(5489);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Tag/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/Tag/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles_module = ({"tag":"tag_hD8n","tagRegular":"tagRegular_D6E_","tagWithCount":"tagWithCount_i0QQ"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Tag/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/Tag/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *

@@ -232,10 +232,10 @@ var clsx_m = __webpack_require__(53);
 var Translate = __webpack_require__(1312);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/useThemeConfig.js
 var useThemeConfig = __webpack_require__(6342);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Heading/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/Heading/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles_module = ({"anchorWithStickyNavbar":"anchorWithStickyNavbar_mojV","anchorWithHideOnScrollNavbar":"anchorWithHideOnScrollNavbar_R0VQ"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Heading/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/Heading/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -264,7 +264,7 @@ var esm = __webpack_require__(5680);
 var esm_extends = __webpack_require__(8168);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Head.js
 var Head = __webpack_require__(5260);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Head.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Head.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -281,7 +281,7 @@ var clsx_m = __webpack_require__(53);
 var contexts_colorMode = __webpack_require__(5293);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/useThemeConfig.js
 var useThemeConfig = __webpack_require__(6342);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/hooks/usePrismTheme.js
+;// ./node_modules/@docusaurus/theme-common/lib/hooks/usePrismTheme.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -294,7 +294,7 @@ var useThemeConfig = __webpack_require__(6342);
 // EXTERNAL MODULE: ./node_modules/parse-numeric-range/index.js
 var parse_numeric_range = __webpack_require__(8426);
 var parse_numeric_range_default = /*#__PURE__*/__webpack_require__.n(parse_numeric_range);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/codeBlockUtils.js
+;// ./node_modules/@docusaurus/theme-common/lib/utils/codeBlockUtils.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -329,10 +329,10 @@ const lines=code.split('\n');const blocks=Object.fromEntries(magicComments.map(d
 lineNumber+=1;continue;}const directive=match.slice(1).find(item=>item!==undefined);if(lineToClassName[directive]){blocks[lineToClassName[directive]].range+=`${lineNumber},`;}else if(blockStartToClassName[directive]){blocks[blockStartToClassName[directive]].start=lineNumber;}else if(blockEndToClassName[directive]){blocks[blockEndToClassName[directive]].range+=`${blocks[blockEndToClassName[directive]].start}-${lineNumber-1},`;}lines.splice(lineNumber,1);}code=lines.join('\n');const lineClassNames={};Object.entries(blocks).forEach(_ref4=>{let[className,{range}]=_ref4;parse_numeric_range_default()(range).forEach(l=>{lineClassNames[l]??(lineClassNames[l]=[]);lineClassNames[l].push(className);});});return{lineClassNames,code};}function getPrismCssVariables(prismTheme){const mapping={color:'--prism-color',backgroundColor:'--prism-background-color'};const properties={};Object.entries(prismTheme.plain).forEach(_ref5=>{let[key,value]=_ref5;const varName=mapping[key];if(varName&&typeof value==='string'){properties[varName]=value;}});return properties;}
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/ThemeClassNames.js
 var ThemeClassNames = __webpack_require__(7559);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Container/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Container/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles_module = ({"codeBlockContainer":"codeBlockContainer_MPoW"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Container/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Container/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -340,10 +340,10 @@ var ThemeClassNames = __webpack_require__(7559);
  * LICENSE file in the root directory of this source tree.
  */function CodeBlockContainer(_ref){let{as:As,...props}=_ref;const prismTheme=usePrismTheme();const prismCssVariables=getPrismCssVariables(prismTheme);return/*#__PURE__*/react.createElement(As// Polymorphic components are hard to type, without `oneOf` generics
 ,(0,esm_extends/* default */.A)({},props,{style:prismCssVariables,className:(0,clsx_m/* default */.A)(props.className,styles_module.codeBlockContainer,ThemeClassNames/* ThemeClassNames */.G.common.codeBlock)}));}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Content/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Content/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Content_styles_module = ({"codeBlockContent":"codeBlockContent_B9tL","codeBlockTitle":"codeBlockTitle_YYkX","codeBlock":"codeBlock__0OG","codeBlockStandalone":"codeBlockStandalone_Px3r","codeBlockLines":"codeBlockLines_gEuF","codeBlockLinesWithNumbering":"codeBlockLinesWithNumbering_hGCP","buttonGroup":"buttonGroup_hRr1"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Content/Element.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Content/Element.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -353,7 +353,7 @@ var ThemeClassNames = __webpack_require__(7559);
 // the children is not a simple string, we just return a styled block without
 // actually highlighting.
 function CodeBlockJSX(_ref){let{children,className}=_ref;return/*#__PURE__*/react.createElement(CodeBlockContainer,{as:"pre",tabIndex:0,className:(0,clsx_m/* default */.A)(Content_styles_module.codeBlockStandalone,'thin-scrollbar',className)},/*#__PURE__*/react.createElement("code",{className:Content_styles_module.codeBlockLines},children));}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/hooks/useCodeWordWrap.js
+;// ./node_modules/@docusaurus/theme-common/lib/hooks/useCodeWordWrap.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -362,7 +362,7 @@ function CodeBlockJSX(_ref){let{children,className}=_ref;return/*#__PURE__*/reac
  */function useCodeWordWrap(){const[isEnabled,setIsEnabled]=(0,react.useState)(false);const[isCodeScrollable,setIsCodeScrollable]=(0,react.useState)(false);const codeBlockRef=(0,react.useRef)(null);const toggle=(0,react.useCallback)(()=>{const codeElement=codeBlockRef.current.querySelector('code');if(isEnabled){codeElement.removeAttribute('style');}else{codeElement.style.whiteSpace='pre-wrap';}setIsEnabled(value=>!value);},[codeBlockRef,isEnabled]);const updateCodeIsScrollable=(0,react.useCallback)(()=>{const{scrollWidth,clientWidth}=codeBlockRef.current;const isScrollable=scrollWidth>clientWidth||codeBlockRef.current.querySelector('code').hasAttribute('style');setIsCodeScrollable(isScrollable);},[codeBlockRef]);(0,react.useEffect)(()=>{updateCodeIsScrollable();},[isEnabled,updateCodeIsScrollable]);(0,react.useEffect)(()=>{window.addEventListener('resize',updateCodeIsScrollable,{passive:true});return()=>{window.removeEventListener('resize',updateCodeIsScrollable);};},[updateCodeIsScrollable]);return{codeBlockRef,isEnabled,isCodeScrollable,toggle};}
 // EXTERNAL MODULE: ./node_modules/prism-react-renderer/prism/index.js
 var prism = __webpack_require__(1258);
-;// CONCATENATED MODULE: ./node_modules/prism-react-renderer/themes/duotoneDark/index.js
+;// ./node_modules/prism-react-renderer/themes/duotoneDark/index.js
 // Duotone Dark
 // Author: Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projects/2016/01/01/duotone-themes)
 // Conversion: Bram de Haan (http://atelierbram.github.io/Base2Tone-prism/output/prism/prism-base2tone-evening-dark.css)
@@ -437,7 +437,7 @@ var theme = {
 
 /* harmony default export */ const duotoneDark = (theme);
 
-;// CONCATENATED MODULE: ./node_modules/prism-react-renderer/dist/index.js
+;// ./node_modules/prism-react-renderer/dist/index.js
 
 
 
@@ -774,17 +774,17 @@ var Highlight = /*@__PURE__*/function (Component) {
 /* harmony default export */ const dist = (Highlight);
 
 
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Line/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Line/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Line_styles_module = ({"codeLine":"codeLine_rqGN","codeLineNumber":"codeLineNumber_hzTh","codeLineContent":"codeLineContent_hM6e"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Line/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Line/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function CodeBlockLine(_ref){let{line,classNames,showLineNumbers,getLineProps,getTokenProps}=_ref;if(line.length===1&&line[0].content==='\n'){line[0].content='';}const lineProps=getLineProps({line,className:(0,clsx_m/* default */.A)(classNames,showLineNumbers&&Line_styles_module.codeLine)});const lineTokens=line.map((token,key)=>/*#__PURE__*/react.createElement("span",(0,esm_extends/* default */.A)({key:key},getTokenProps({token,key}))));return/*#__PURE__*/react.createElement("span",lineProps,showLineNumbers?/*#__PURE__*/react.createElement(react.Fragment,null,/*#__PURE__*/react.createElement("span",{className:Line_styles_module.codeLineNumber}),/*#__PURE__*/react.createElement("span",{className:Line_styles_module.codeLineContent},lineTokens)):/*#__PURE__*/react.createElement(react.Fragment,null,lineTokens,/*#__PURE__*/react.createElement("br",null)));}
-;// CONCATENATED MODULE: ./node_modules/copy-text-to-clipboard/index.js
+;// ./node_modules/copy-text-to-clipboard/index.js
 function copyTextToClipboard(text,_temp){let{target=document.body}=_temp===void 0?{}:_temp;if(typeof text!=='string'){throw new TypeError(`Expected parameter \`text\` to be a \`string\`, got \`${typeof text}\`.`);}const element=document.createElement('textarea');const previouslyFocusedElement=document.activeElement;element.value=text;// Prevent keyboard from showing on mobile
 element.setAttribute('readonly','');element.style.contain='strict';element.style.position='absolute';element.style.left='-9999px';element.style.fontSize='12pt';// Prevent zooming on iOS
 const selection=document.getSelection();const originalRange=selection.rangeCount>0&&selection.getRangeAt(0);target.append(element);element.select();// Explicit selection workaround for iOS
@@ -792,27 +792,27 @@ element.selectionStart=0;element.selectionEnd=text.length;let isSuccess=false;tr
 if(previouslyFocusedElement){previouslyFocusedElement.focus();}return isSuccess;}
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Translate.js + 1 modules
 var Translate = __webpack_require__(1312);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/CopyButton/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/CopyButton/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const CopyButton_styles_module = ({"copyButtonCopied":"copyButtonCopied_ljy5","copyButtonIcons":"copyButtonIcons_W9eQ","copyButtonIcon":"copyButtonIcon_XEyF","copyButtonSuccessIcon":"copyButtonSuccessIcon_i9w9"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/CopyButton/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/CopyButton/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function CopyButton(_ref){let{code,className}=_ref;const[isCopied,setIsCopied]=(0,react.useState)(false);const copyTimeout=(0,react.useRef)(undefined);const handleCopyCode=(0,react.useCallback)(()=>{copyTextToClipboard(code);setIsCopied(true);copyTimeout.current=window.setTimeout(()=>{setIsCopied(false);},1000);},[code]);(0,react.useEffect)(()=>()=>window.clearTimeout(copyTimeout.current),[]);return/*#__PURE__*/react.createElement("button",{type:"button","aria-label":isCopied?(0,Translate/* translate */.T)({id:'theme.CodeBlock.copied',message:'Copied',description:'The copied button label on code blocks'}):(0,Translate/* translate */.T)({id:'theme.CodeBlock.copyButtonAriaLabel',message:'Copy code to clipboard',description:'The ARIA label for copy code blocks button'}),title:(0,Translate/* translate */.T)({id:'theme.CodeBlock.copy',message:'Copy',description:'The copy button label on code blocks'}),className:(0,clsx_m/* default */.A)('clean-btn',className,CopyButton_styles_module.copyButton,isCopied&&CopyButton_styles_module.copyButtonCopied),onClick:handleCopyCode},/*#__PURE__*/react.createElement("span",{className:CopyButton_styles_module.copyButtonIcons,"aria-hidden":"true"},/*#__PURE__*/react.createElement("svg",{className:CopyButton_styles_module.copyButtonIcon,viewBox:"0 0 24 24"},/*#__PURE__*/react.createElement("path",{d:"M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"})),/*#__PURE__*/react.createElement("svg",{className:CopyButton_styles_module.copyButtonSuccessIcon,viewBox:"0 0 24 24"},/*#__PURE__*/react.createElement("path",{d:"M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"}))));}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/WordWrapButton/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/WordWrapButton/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const WordWrapButton_styles_module = ({"wordWrapButtonIcon":"wordWrapButtonIcon_azs1","wordWrapButtonEnabled":"wordWrapButtonEnabled_Geot"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/WordWrapButton/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/WordWrapButton/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function WordWrapButton(_ref){let{className,onClick,isEnabled}=_ref;const title=(0,Translate/* translate */.T)({id:'theme.CodeBlock.wordWrapToggle',message:'Toggle word wrap',description:'The title attribute for toggle word wrapping button of code block lines'});return/*#__PURE__*/react.createElement("button",{type:"button",onClick:onClick,className:(0,clsx_m/* default */.A)('clean-btn',className,isEnabled&&WordWrapButton_styles_module.wordWrapButtonEnabled),"aria-label":title,title:title},/*#__PURE__*/react.createElement("svg",{className:WordWrapButton_styles_module.wordWrapButtonIcon,viewBox:"0 0 24 24","aria-hidden":"true"},/*#__PURE__*/react.createElement("path",{fill:"currentColor",d:"M4 19h6v-2H4v2zM20 5H4v2h16V5zm-3 6H4v2h13.25c1.1 0 2 .9 2 2s-.9 2-2 2H15v-2l-3 3l3 3v-2h2c2.21 0 4-1.79 4-4s-1.79-4-4-4z"})));}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Content/String.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/Content/String.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -822,7 +822,7 @@ var Translate = __webpack_require__(1312);
 // future. Note that MDX doesn't strip quotes when parsing metastring:
 // "title=\"xyz\"" => title: "\"xyz\""
 const title=parseCodeBlockTitle(metastring)||titleProp;const{lineClassNames,code}=parseLines(children,{metastring,language,magicComments});const showLineNumbers=showLineNumbersProp||containsLineNumbers(metastring);return/*#__PURE__*/react.createElement(CodeBlockContainer,{as:"div",className:(0,clsx_m/* default */.A)(blockClassName,language&&!blockClassName.includes(`language-${language}`)&&`language-${language}`)},title&&/*#__PURE__*/react.createElement("div",{className:Content_styles_module.codeBlockTitle},title),/*#__PURE__*/react.createElement("div",{className:Content_styles_module.codeBlockContent},/*#__PURE__*/react.createElement(dist,(0,esm_extends/* default */.A)({},defaultProps,{theme:prismTheme,code:code,language:language??'text'}),_ref2=>{let{className,tokens,getLineProps,getTokenProps}=_ref2;return/*#__PURE__*/react.createElement("pre",{/* eslint-disable-next-line jsx-a11y/no-noninteractive-tabindex */tabIndex:0,ref:wordWrap.codeBlockRef,className:(0,clsx_m/* default */.A)(className,Content_styles_module.codeBlock,'thin-scrollbar')},/*#__PURE__*/react.createElement("code",{className:(0,clsx_m/* default */.A)(Content_styles_module.codeBlockLines,showLineNumbers&&Content_styles_module.codeBlockLinesWithNumbering)},tokens.map((line,i)=>/*#__PURE__*/react.createElement(CodeBlockLine,{key:i,line:line,getLineProps:getLineProps,getTokenProps:getTokenProps,classNames:lineClassNames[i],showLineNumbers:showLineNumbers}))));}),/*#__PURE__*/react.createElement("div",{className:Content_styles_module.buttonGroup},(wordWrap.isEnabled||wordWrap.isCodeScrollable)&&/*#__PURE__*/react.createElement(WordWrapButton,{className:Content_styles_module.codeButton,onClick:()=>wordWrap.toggle(),isEnabled:wordWrap.isEnabled}),/*#__PURE__*/react.createElement(CopyButton,{className:Content_styles_module.codeButton,code:code}))));}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/CodeBlock/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -839,7 +839,7 @@ return Array.isArray(children)?children.join(''):children;}function CodeBlock(_r
 // from SSR. Hence force a re-render after mounting to apply the current
 // relevant styles.
 const isBrowser=(0,useIsBrowser/* default */.A)();const children=maybeStringifyChildren(rawChildren);const CodeBlockComp=typeof children==='string'?CodeBlockString:CodeBlockJSX;return/*#__PURE__*/react.createElement(CodeBlockComp,(0,esm_extends/* default */.A)({key:String(isBrowser)},props),children);}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Code.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Code.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -848,14 +848,14 @@ const isBrowser=(0,useIsBrowser/* default */.A)();const children=maybeStringifyC
  */function MDXCode(props){const inlineElements=['a','b','big','i','span','em','strong','sup','sub','small'];const shouldBeInline=react.Children.toArray(props.children).every(el=>typeof el==='string'&&!el.includes('\n')||/*#__PURE__*/(0,react.isValidElement)(el)&&inlineElements.includes(el.props.mdxType));return shouldBeInline?/*#__PURE__*/react.createElement("code",props):/*#__PURE__*/react.createElement(CodeBlock,props);}
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js + 1 modules
 var Link = __webpack_require__(5489);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/A.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/A.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function MDXA(props){return/*#__PURE__*/react.createElement(Link/* default */.A,props);}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Pre.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Pre.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -865,10 +865,10 @@ var Link = __webpack_require__(5489);
 ,/*#__PURE__*/(0,react.isValidElement)(props.children)&&props.children.props.originalType==='code'?props.children?.props:{...props});}
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/components/Collapsible/index.js
 var Collapsible = __webpack_require__(1422);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/components/Details/styles.module.css
+;// ./node_modules/@docusaurus/theme-common/lib/components/Details/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Details_styles_module = ({"details":"details_lb9f","isBrowser":"isBrowser_bmU9","collapsibleContent":"collapsibleContent_i85q"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/components/Details/index.js
+;// ./node_modules/@docusaurus/theme-common/lib/components/Details/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -879,17 +879,17 @@ var Collapsible = __webpack_require__(1422);
  * very lightweight styles, but you should bring your UI.
  */function Details(_ref){let{summary,children,...props}=_ref;const isBrowser=(0,useIsBrowser/* default */.A)();const detailsRef=(0,react.useRef)(null);const{collapsed,setCollapsed}=(0,Collapsible/* useCollapsible */.u)({initialState:!props.open});// Use a separate state for the actual details prop, because it must be set
 // only after animation completes, otherwise close animations won't work
-const[open,setOpen]=(0,react.useState)(props.open);return/*#__PURE__*/ (// eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions
+const[open,setOpen]=(0,react.useState)(props.open);return(/*#__PURE__*/// eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions
 react.createElement("details",{...props,ref:detailsRef,open:open,"data-collapsed":collapsed,className:(0,clsx_m/* default */.A)(Details_styles_module.details,isBrowser&&Details_styles_module.isBrowser,props.className),onMouseDown:e=>{const target=e.target;// Prevent a double-click to highlight summary text
 if(isInSummary(target)&&e.detail>1){e.preventDefault();}},onClick:e=>{e.stopPropagation();// For isolation of multiple nested details/summary
 const target=e.target;const shouldToggle=isInSummary(target)&&hasParent(target,detailsRef.current);if(!shouldToggle){return;}e.preventDefault();if(collapsed){setCollapsed(false);setOpen(true);}else{setCollapsed(true);// Don't do this, it breaks close animation!
 // setOpen(false);
 }}},summary||/*#__PURE__*/react.createElement("summary",null,"Details"),/*#__PURE__*/react.createElement(Collapsible/* Collapsible */.N,{lazy:false,collapsed:collapsed,disableSSRStyle// Allows component to work fine even with JS disabled!
 :true,onCollapseTransitionEnd:newCollapsed=>{setCollapsed(newCollapsed);setOpen(!newCollapsed);}},/*#__PURE__*/react.createElement("div",{className:Details_styles_module.collapsibleContent},children))));}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Details/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/Details/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const theme_Details_styles_module = ({"details":"details_BAp3"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Details/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/Details/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -898,7 +898,7 @@ const target=e.target;const shouldToggle=isInSummary(target)&&hasParent(target,d
  */// Should we have a custom details/summary comp in Infima instead of reusing
 // alert classes?
 const InfimaClasses='alert alert--info';function Details_Details(_ref){let{...props}=_ref;return/*#__PURE__*/react.createElement(Details,(0,esm_extends/* default */.A)({},props,{className:(0,clsx_m/* default */.A)(InfimaClasses,theme_Details_styles_module.details,props.className)}));}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Details.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Details.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -909,14 +909,14 @@ const InfimaClasses='alert alert--info';function Details_Details(_ref){let{...pr
 const summary=items.find(item=>item?.props?.mdxType==='summary');const children=/*#__PURE__*/react.createElement(react.Fragment,null,items.filter(item=>item!==summary));return/*#__PURE__*/react.createElement(Details_Details,(0,esm_extends/* default */.A)({},props,{summary:summary}),children);}
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Heading/index.js + 1 modules
 var Heading = __webpack_require__(39);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Heading.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Heading.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function MDXHeading(props){return/*#__PURE__*/react.createElement(Heading/* default */.A,props);}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Ul.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Ul.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -926,25 +926,25 @@ var Heading = __webpack_require__(39);
 // We keep the global class, but add Infima class to get list without styling
 // See https://github.com/syntax-tree/mdast-util-to-hast/issues/28
 className?.includes('contains-task-list')&&'clean-list');}function MDXUl(props){return/*#__PURE__*/react.createElement("ul",(0,esm_extends/* default */.A)({},props,{className:transformUlClassName(props.className)}));}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Img.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Img.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const Img_module = ({"img":"img_E7b_"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Img.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/Img.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function transformImgClassName(className){return (0,clsx_m/* default */.A)(className,Img_module.img);}function MDXImg(props){return/*#__PURE__*/ (// eslint-disable-next-line jsx-a11y/alt-text
+ */function transformImgClassName(className){return (0,clsx_m/* default */.A)(className,Img_module.img);}function MDXImg(props){return(/*#__PURE__*/// eslint-disable-next-line jsx-a11y/alt-text
 react.createElement("img",(0,esm_extends/* default */.A)({loading:"lazy"},props,{className:transformImgClassName(props.className)})));}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXComponents/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */const MDXComponents={head:MDXHead,code:MDXCode,a:MDXA,pre:MDXPre,details:MDXDetails,ul:MDXUl,img:MDXImg,h1:props=>/*#__PURE__*/react.createElement(MDXHeading,(0,esm_extends/* default */.A)({as:"h1"},props)),h2:props=>/*#__PURE__*/react.createElement(MDXHeading,(0,esm_extends/* default */.A)({as:"h2"},props)),h3:props=>/*#__PURE__*/react.createElement(MDXHeading,(0,esm_extends/* default */.A)({as:"h3"},props)),h4:props=>/*#__PURE__*/react.createElement(MDXHeading,(0,esm_extends/* default */.A)({as:"h4"},props)),h5:props=>/*#__PURE__*/react.createElement(MDXHeading,(0,esm_extends/* default */.A)({as:"h5"},props)),h6:props=>/*#__PURE__*/react.createElement(MDXHeading,(0,esm_extends/* default */.A)({as:"h6"},props))};/* harmony default export */ const theme_MDXComponents = (MDXComponents);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXContent/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXContent/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *

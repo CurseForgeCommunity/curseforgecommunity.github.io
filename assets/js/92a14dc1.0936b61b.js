@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[742],{
+(self["webpackChunkwebsite"] = self["webpackChunkwebsite"] || []).push([[104],{
 
 /***/ 5680:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -212,7 +212,7 @@ function createElement (type, props) {
 
 /***/ }),
 
-/***/ 1866:
+/***/ 7028:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -227,7 +227,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_runner_work_curseforgecommunity_github_io_curseforgecommunity_github_io_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8168);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6540);
 /* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5680);
-/* @jsxRuntime classic */ /* @jsx mdx */ /* @jsxFrag mdx.Fragment */const frontMatter={sidebar_position:1};const contentTitle='Tools documentation';const metadata={"unversionedId":"index","id":"index","title":"Tools documentation","description":"This is where we will keep our documentation of all the tools we've collected.","source":"@site/docs/index.md","sourceDirName":".","slug":"/","permalink":"/docs/","draft":false,"editUrl":"https://github.com/curseforgecommunity/curseforgecommunity.github.io/tree/main/docs/index.md","tags":[],"version":"current","sidebarPosition":1,"frontMatter":{"sidebar_position":1},"sidebar":"tutorialSidebar"};const assets={};const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .yg)(MDXLayout,(0,_home_runner_work_curseforgecommunity_github_io_curseforgecommunity_github_io_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .A)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .yg)("h1",{"id":"tools-documentation"},`Tools documentation`),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .yg)("p",null,`This is where we will keep our documentation of all the tools we've collected.`));};MDXContent.isMDXComponent=true;
+/* @jsxRuntime classic *//* @jsx mdx *//* @jsxFrag mdx.Fragment */const frontMatter={title:'A page with all collected community tools for CurseForge?!',authors:['nolifeking'],tags:['curseforge','tools','community']};const contentTitle=undefined;const metadata={"permalink":"/blog/2022/05/14/a-page-with-tools","editUrl":"https://github.com/curseforgecommunity/curseforgecommunity.github.io/tree/main/blog/2022-05-14-a-page-with-tools.md","source":"@site/blog/2022-05-14-a-page-with-tools.md","title":"A page with all collected community tools for CurseForge?!","description":"Wait.. what? A new page, that contains all tools? Nah, that's can't be right.","date":"2022-05-14T00:00:00.000Z","formattedDate":"May 14, 2022","tags":[{"label":"curseforge","permalink":"/blog/tags/curseforge"},{"label":"tools","permalink":"/blog/tags/tools"},{"label":"community","permalink":"/blog/tags/community"}],"readingTime":1.045,"truncated":true,"authors":[{"name":"NoLifeKing85","title":"Community Support","url":"https://nolifeking85.tv","imageURL":"https://github.com/itssimple.png","key":"nolifeking"}],"frontMatter":{"title":"A page with all collected community tools for CurseForge?!","authors":["nolifeking"],"tags":["curseforge","tools","community"]},"prevItem":{"title":"New tools added!","permalink":"/blog/2022/08/17/new-tools-added"}};const assets={"authorsImageUrls":[undefined]};const toc=[];const layoutProps={toc};const MDXLayout="wrapper";function MDXContent(_ref){let{components,...props}=_ref;return (0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .yg)(MDXLayout,(0,_home_runner_work_curseforgecommunity_github_io_curseforgecommunity_github_io_node_modules_babel_runtime_helpers_esm_extends_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .A)({},layoutProps,props,{components:components,mdxType:"MDXLayout"}),(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_1__/* .mdx */ .yg)("p",null,`Wait.. what? A new page, that contains all tools? Nah, that's can't be right.`));};MDXContent.isMDXComponent=true;
 
 /***/ })
 

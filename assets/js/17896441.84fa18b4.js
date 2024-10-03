@@ -22,7 +22,7 @@ var esm_extends = __webpack_require__(8168);
 var Translate = __webpack_require__(1312);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/PaginatorNavLink/index.js
 var PaginatorNavLink = __webpack_require__(5058);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocPaginator/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocPaginator/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -41,7 +41,7 @@ var docsPreferredVersion = __webpack_require__(5597);
 var ThemeClassNames = __webpack_require__(7559);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/contexts/docsVersion.js
 var docsVersion = __webpack_require__(2252);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocVersionBanner/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocVersionBanner/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -50,14 +50,14 @@ var docsVersion = __webpack_require__(2252);
  */function UnreleasedVersionLabel(_ref){let{siteTitle,versionMetadata}=_ref;return/*#__PURE__*/react.createElement(Translate/* default */.A,{id:"theme.docs.versions.unreleasedVersionLabel",description:"The label used to tell the user that he's browsing an unreleased doc version",values:{siteTitle,versionLabel:/*#__PURE__*/react.createElement("b",null,versionMetadata.label)}},'This is unreleased documentation for {siteTitle} {versionLabel} version.');}function UnmaintainedVersionLabel(_ref2){let{siteTitle,versionMetadata}=_ref2;return/*#__PURE__*/react.createElement(Translate/* default */.A,{id:"theme.docs.versions.unmaintainedVersionLabel",description:"The label used to tell the user that he's browsing an unmaintained doc version",values:{siteTitle,versionLabel:/*#__PURE__*/react.createElement("b",null,versionMetadata.label)}},'This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.');}const BannerLabelComponents={unreleased:UnreleasedVersionLabel,unmaintained:UnmaintainedVersionLabel};function BannerLabel(props){const BannerLabelComponent=BannerLabelComponents[props.versionMetadata.banner];return/*#__PURE__*/react.createElement(BannerLabelComponent,props);}function LatestVersionSuggestionLabel(_ref3){let{versionLabel,to,onClick}=_ref3;return/*#__PURE__*/react.createElement(Translate/* default */.A,{id:"theme.docs.versions.latestVersionSuggestionLabel",description:"The label used to tell the user to check the latest version",values:{versionLabel,latestVersionLink:/*#__PURE__*/react.createElement("b",null,/*#__PURE__*/react.createElement(Link/* default */.A,{to:to,onClick:onClick},/*#__PURE__*/react.createElement(Translate/* default */.A,{id:"theme.docs.versions.latestVersionLinkLabel",description:"The label used for the latest version suggestion link label"},"latest version")))}},'For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).');}function DocVersionBannerEnabled(_ref4){let{className,versionMetadata}=_ref4;const{siteConfig:{title:siteTitle}}=(0,useDocusaurusContext/* default */.A)();const{pluginId}=(0,client/* useActivePlugin */.vT)({failfast:true});const getVersionMainDoc=version=>version.docs.find(doc=>doc.id===version.mainDocId);const{savePreferredVersionName}=(0,docsPreferredVersion/* useDocsPreferredVersion */.g1)(pluginId);const{latestDocSuggestion,latestVersionSuggestion}=(0,client/* useDocVersionSuggestions */.HW)(pluginId);// Try to link to same doc in latest version (not always possible), falling
 // back to main doc of latest version
 const latestVersionSuggestedDoc=latestDocSuggestion??getVersionMainDoc(latestVersionSuggestion);return/*#__PURE__*/react.createElement("div",{className:(0,clsx_m/* default */.A)(className,ThemeClassNames/* ThemeClassNames */.G.docs.docVersionBanner,'alert alert--warning margin-bottom--md'),role:"alert"},/*#__PURE__*/react.createElement("div",null,/*#__PURE__*/react.createElement(BannerLabel,{siteTitle:siteTitle,versionMetadata:versionMetadata})),/*#__PURE__*/react.createElement("div",{className:"margin-top--md"},/*#__PURE__*/react.createElement(LatestVersionSuggestionLabel,{versionLabel:latestVersionSuggestion.label,to:latestVersionSuggestedDoc.path,onClick:()=>savePreferredVersionName(latestVersionSuggestion.name)})));}function DocVersionBanner(_ref5){let{className}=_ref5;const versionMetadata=(0,docsVersion/* useDocsVersion */.r)();if(versionMetadata.banner){return/*#__PURE__*/react.createElement(DocVersionBannerEnabled,{className:className,versionMetadata:versionMetadata});}return null;}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocVersionBadge/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocVersionBadge/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function DocVersionBadge(_ref){let{className}=_ref;const versionMetadata=(0,docsVersion/* useDocsVersion */.r)();if(versionMetadata.badge){return/*#__PURE__*/react.createElement("span",{className:(0,clsx_m/* default */.A)(className,ThemeClassNames/* ThemeClassNames */.G.docs.docVersionBadge,'badge badge--secondary')},/*#__PURE__*/react.createElement(Translate/* default */.A,{id:"theme.docs.versionBadge.label",values:{versionLabel:versionMetadata.label}},'Version: {versionLabel}'));}return null;}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/LastUpdated/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/LastUpdated/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -68,10 +68,10 @@ const latestVersionSuggestedDoc=latestDocSuggestion??getVersionMainDoc(latestVer
 var EditThisPage = __webpack_require__(1335);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TagsListInline/index.js + 1 modules
 var TagsListInline = __webpack_require__(5137);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocItemFooter/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocItemFooter/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles_module = ({"lastUpdated":"lastUpdated_foO9"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocItemFooter/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocItemFooter/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -82,22 +82,22 @@ var TagsListInline = __webpack_require__(5137);
 var TOC = __webpack_require__(5751);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/components/Collapsible/index.js
 var Collapsible = __webpack_require__(1422);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCCollapsible/index.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCCollapsible/index.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const index_module = ({"tocCollapsible":"tocCollapsible_bZGK","tocCollapsibleContent":"tocCollapsibleContent_NNA8","tocCollapsibleExpanded":"tocCollapsibleExpanded_IqtF"});
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCItems/index.js + 3 modules
 var TOCItems = __webpack_require__(9495);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCCollapsible/CollapseButton.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCCollapsible/CollapseButton.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const CollapseButton_module = ({"tocCollapsibleButton":"tocCollapsibleButton_l22C","tocCollapsibleButtonExpanded":"tocCollapsibleButtonExpanded_KeTX"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCCollapsible/CollapseButton.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCCollapsible/CollapseButton.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function TOCCollapsibleCollapseButton(_ref){let{collapsed,...props}=_ref;return/*#__PURE__*/react.createElement("button",(0,esm_extends/* default */.A)({type:"button"},props,{className:(0,clsx_m/* default */.A)('clean-btn',CollapseButton_module.tocCollapsibleButton,!collapsed&&CollapseButton_module.tocCollapsibleButtonExpanded,props.className)}),/*#__PURE__*/react.createElement(Translate/* default */.A,{id:"theme.TOCCollapsible.toggleButtonLabel",description:"The label used by the button on the collapsible TOC component"},"On this page"));}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCCollapsible/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCCollapsible/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -106,7 +106,7 @@ var TOCItems = __webpack_require__(9495);
  */function TOCCollapsible(_ref){let{toc,className,minHeadingLevel,maxHeadingLevel}=_ref;const{collapsed,toggleCollapsed}=(0,Collapsible/* useCollapsible */.u)({initialState:true});return/*#__PURE__*/react.createElement("div",{className:(0,clsx_m/* default */.A)(index_module.tocCollapsible,!collapsed&&index_module.tocCollapsibleExpanded,className)},/*#__PURE__*/react.createElement(TOCCollapsibleCollapseButton,{collapsed:collapsed,onClick:toggleCollapsed}),/*#__PURE__*/react.createElement(Collapsible/* Collapsible */.N,{lazy:true,className:index_module.tocCollapsibleContent,collapsed:collapsed},/*#__PURE__*/react.createElement(TOCItems/* default */.A,{toc:toc,minHeadingLevel:minHeadingLevel,maxHeadingLevel:maxHeadingLevel})));}
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Heading/index.js + 1 modules
 var Heading = __webpack_require__(39);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocItem/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocItem/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const DocItem_styles_module = ({"docItemContainer":"docItemContainer_vinB","docItemCol":"docItemCol_DM6M","tocMobile":"tocMobile_TmEX"});
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/metadataUtils.js + 2 modules
@@ -117,19 +117,19 @@ var useWindowSize = __webpack_require__(4581);
 var docsUtils = __webpack_require__(1754);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/routesUtils.js
 var routesUtils = __webpack_require__(9169);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocBreadcrumbs/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocBreadcrumbs/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const DocBreadcrumbs_styles_module = ({"breadcrumbsContainer":"breadcrumbsContainer_Xlws","breadcrumbHomeIcon":"breadcrumbHomeIcon_kU5B"});
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useBaseUrl.js
 var useBaseUrl = __webpack_require__(6025);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/IconHome/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/IconHome/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function IconHome(props){return/*#__PURE__*/react.createElement("svg",(0,esm_extends/* default */.A)({viewBox:"0 0 24 24"},props),/*#__PURE__*/react.createElement("path",{d:"M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z",fill:"currentColor"}));}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocBreadcrumbs/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocBreadcrumbs/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -137,7 +137,7 @@ var useBaseUrl = __webpack_require__(6025);
  * LICENSE file in the root directory of this source tree.
  */// TODO move to design system folder
 function BreadcrumbsItemLink(_ref){let{children,href,isLast}=_ref;const className='breadcrumbs__link';if(isLast){return/*#__PURE__*/react.createElement("span",{className:className,itemProp:"name"},children);}return href?/*#__PURE__*/react.createElement(Link/* default */.A,{className:className,href:href,itemProp:"item"},/*#__PURE__*/react.createElement("span",{itemProp:"name"},children))// TODO Google search console doesn't like breadcrumb items without href.
-:/*#__PURE__*/ // The schema doesn't seem to require `id` for each `item`, although Google
+:/*#__PURE__*/// The schema doesn't seem to require `id` for each `item`, although Google
 // insist to infer one, even if it's invalid. Removing `itemProp="item
 // name"` for now, since I don't know how to properly fix it.
 // See https://github.com/facebook/docusaurus/issues/7241
@@ -145,7 +145,7 @@ react.createElement("span",{className:className},children);}// TODO move to desi
 function BreadcrumbsItem(_ref2){let{children,active,index,addMicrodata}=_ref2;return/*#__PURE__*/react.createElement("li",(0,esm_extends/* default */.A)({},addMicrodata&&{itemScope:true,itemProp:'itemListElement',itemType:'https://schema.org/ListItem'},{className:(0,clsx_m/* default */.A)('breadcrumbs__item',{'breadcrumbs__item--active':active})}),children,/*#__PURE__*/react.createElement("meta",{itemProp:"position",content:String(index+1)}));}function HomeBreadcrumbItem(){const homeHref=(0,useBaseUrl/* default */.A)('/');return/*#__PURE__*/react.createElement("li",{className:"breadcrumbs__item"},/*#__PURE__*/react.createElement(Link/* default */.A,{"aria-label":(0,Translate/* translate */.T)({id:'theme.docs.breadcrumbs.home',message:'Home page',description:'The ARIA label for the home page in the breadcrumbs'}),className:(0,clsx_m/* default */.A)('breadcrumbs__link',DocBreadcrumbs_styles_module.breadcrumbsItemLink),href:homeHref},/*#__PURE__*/react.createElement(IconHome,{className:DocBreadcrumbs_styles_module.breadcrumbHomeIcon})));}function DocBreadcrumbs(){const breadcrumbs=(0,docsUtils/* useSidebarBreadcrumbs */.OF)();const homePageRoute=(0,routesUtils/* useHomePageRoute */.Dt)();if(!breadcrumbs){return null;}return/*#__PURE__*/react.createElement("nav",{className:(0,clsx_m/* default */.A)(ThemeClassNames/* ThemeClassNames */.G.docs.docBreadcrumbs,DocBreadcrumbs_styles_module.breadcrumbsContainer),"aria-label":(0,Translate/* translate */.T)({id:'theme.docs.breadcrumbs.navAriaLabel',message:'Breadcrumbs',description:'The ARIA label for the breadcrumbs'})},/*#__PURE__*/react.createElement("ul",{className:"breadcrumbs",itemScope:true,itemType:"https://schema.org/BreadcrumbList"},homePageRoute&&/*#__PURE__*/react.createElement(HomeBreadcrumbItem,null),breadcrumbs.map((item,idx)=>{const isLast=idx===breadcrumbs.length-1;return/*#__PURE__*/react.createElement(BreadcrumbsItem,{key:idx,active:isLast,index:idx,addMicrodata:!!item.href},/*#__PURE__*/react.createElement(BreadcrumbsItemLink,{href:item.href,isLast:isLast},item.label));})));}
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/MDXContent/index.js + 32 modules
 var MDXContent = __webpack_require__(981);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocItem/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/DocItem/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -175,10 +175,10 @@ var Translate = __webpack_require__(1312);
 var esm_extends = __webpack_require__(8168);
 // EXTERNAL MODULE: ./node_modules/clsx/dist/clsx.m.js
 var clsx_m = __webpack_require__(53);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/IconEdit/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/IconEdit/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles_module = ({"iconEdit":"iconEdit_dcUD"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/IconEdit/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/IconEdit/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -187,7 +187,7 @@ var clsx_m = __webpack_require__(53);
  */function IconEdit(_ref){let{className,...restProps}=_ref;return/*#__PURE__*/react.createElement("svg",(0,esm_extends/* default */.A)({fill:"currentColor",height:"20",width:"20",viewBox:"0 0 40 40",className:(0,clsx_m/* default */.A)(styles_module.iconEdit,className),"aria-hidden":"true"},restProps),/*#__PURE__*/react.createElement("g",null,/*#__PURE__*/react.createElement("path",{d:"m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"})));}
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/ThemeClassNames.js
 var ThemeClassNames = __webpack_require__(7559);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/EditThisPage/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/EditThisPage/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -232,10 +232,10 @@ var react = __webpack_require__(6540);
 var clsx_m = __webpack_require__(53);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCItems/index.js + 3 modules
 var TOCItems = __webpack_require__(9495);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOC/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOC/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles_module = ({"tableOfContents":"tableOfContents_cNA8","docItemContainer":"docItemContainer_WX_Y"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOC/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOC/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -260,7 +260,7 @@ __webpack_require__.d(__webpack_exports__, {
 var esm_extends = __webpack_require__(8168);
 // EXTERNAL MODULE: ./node_modules/react/index.js
 var react = __webpack_require__(6540);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCItems/Tree.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCItems/Tree.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -273,7 +273,7 @@ function TOCItemTree(_ref){let{toc,className,linkClassName,isChild}=_ref;if(!toc
 /* harmony default export */ const Tree = (/*#__PURE__*/react.memo(TOCItemTree));
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/useThemeConfig.js
 var useThemeConfig = __webpack_require__(6342);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/tocUtils.js
+;// ./node_modules/@docusaurus/theme-common/lib/utils/tocUtils.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -303,7 +303,7 @@ headings.forEach(heading=>{const{parentIndex,...rest}=heading;if(parentIndex>=0)
  * min=3, max=4, but should rather be "[h3, h4]" (since the h2 heading has split
  * the two headings and they are not parent-children)
  */function useFilteredAndTreeifiedTOC(_ref2){let{toc,minHeadingLevel,maxHeadingLevel}=_ref2;return (0,react.useMemo)(()=>filterTOC({toc:treeifyTOC(toc),minHeadingLevel,maxHeadingLevel}),[toc,minHeadingLevel,maxHeadingLevel]);}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/hooks/useTOCHighlight.js
+;// ./node_modules/@docusaurus/theme-common/lib/hooks/useTOCHighlight.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -339,7 +339,7 @@ return document.querySelector('.navbar').clientHeight;}function useAnchorTopOffs
  */function useTOCHighlight(config){const lastActiveLinkRef=(0,react.useRef)(undefined);const anchorTopOffsetRef=useAnchorTopOffsetRef();(0,react.useEffect)(()=>{if(!config){// No-op, highlighting is disabled
 return()=>{};}const{linkClassName,linkActiveClassName,minHeadingLevel,maxHeadingLevel}=config;function updateLinkActiveClass(link,active){if(active){if(lastActiveLinkRef.current&&lastActiveLinkRef.current!==link){lastActiveLinkRef.current?.classList.remove(linkActiveClassName);}link.classList.add(linkActiveClassName);lastActiveLinkRef.current=link;// link.scrollIntoView({block: 'nearest'});
 }else{link.classList.remove(linkActiveClassName);}}function updateActiveLink(){const links=getLinks(linkClassName);const anchors=getAnchors({minHeadingLevel,maxHeadingLevel});const activeAnchor=getActiveAnchor(anchors,{anchorTopOffset:anchorTopOffsetRef.current});const activeLink=links.find(link=>activeAnchor&&activeAnchor.id===getLinkAnchorValue(link));links.forEach(link=>{updateLinkActiveClass(link,link===activeLink);});}document.addEventListener('scroll',updateActiveLink);document.addEventListener('resize',updateActiveLink);updateActiveLink();return()=>{document.removeEventListener('scroll',updateActiveLink);document.removeEventListener('resize',updateActiveLink);};},[config,anchorTopOffsetRef]);}
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCItems/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TOCItems/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -364,10 +364,10 @@ var react = __webpack_require__(6540);
 var clsx_m = __webpack_require__(53);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js + 1 modules
 var Link = __webpack_require__(5489);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Tag/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/Tag/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles_module = ({"tag":"tag_hD8n","tagRegular":"tagRegular_D6E_","tagWithCount":"tagWithCount_i0QQ"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Tag/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/Tag/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -394,10 +394,10 @@ var clsx_m = __webpack_require__(53);
 var Translate = __webpack_require__(1312);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/Tag/index.js + 1 modules
 var Tag = __webpack_require__(5465);
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TagsListInline/styles.module.css
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TagsListInline/styles.module.css
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const styles_module = ({"tags":"tags_XVD_","tag":"tag_JSN8"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib-next/theme/TagsListInline/index.js
+;// ./node_modules/@docusaurus/theme-classic/lib-next/theme/TagsListInline/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
