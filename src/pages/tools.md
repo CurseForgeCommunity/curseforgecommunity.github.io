@@ -73,14 +73,6 @@ Made by: <a href="http://www.wynprice.com/" target="_blank">Wyn Price</a> (<a hr
 
 ---
 
-## <a href="https://paste.cflookup.com/" target="_blank">cursebin</a> (Hastebin)
-
-A hastebin instance, meant to host end user logs from i.e. Minecraft crashes and other logs.
-
-Made by: <a href="https://nolifeking85.tv" target="_blank">NoLifeKing85</a> (<a href="https://github.com/itssimple" target="_blank">GitHub</a>)
-
----
-
 ## <a href="https://www.cfwidget.com/" target="_blank">CFWidget</a> (Forum widget)
 
 Embed CurseForge project downloads anywhere on the web using widgets, and access project information programmatically through the JSON API to integrate automatic updates, content discovery and more into your projects.
