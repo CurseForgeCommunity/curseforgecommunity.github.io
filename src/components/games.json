@@ -1,81 +1,28 @@
-import React from "react";
-
-export type GameInfoItem = {
-	id: number;
-	name: string;
-	image: string;
-	avatarUrl: string;
-	appWeb?: AppWeb[];
-	os?: OperatingSystem[];
-	info?: JSX.Element;
-}
-
-export enum AppWeb {
-	Web = "Web",
-	Standalone = "Standalone",
-	OverwolfApp = "Overwolf App",
-	InGame = "In-Game",
-	Unknown = "Unknown"
-}
-
-export enum OperatingSystem {
-	Windows = "Windows",
-	Linux = "Linux",
-	Mac = "Mac",
-	Xbox = "Xbox",
-	PlayStation = "PlayStation",
-	Unknown = "Unknown"
-}
-
-const GamesInformation: GameInfoItem[] = [
+[
 	{
 		"id": 88044,
 		"name": "Avowed",
 		"image": "https://media.forgecdn.net/game-box-art/88044_5a13dbcf-73bd-4ae0-9810-2122cfdaafc2.webp",
-		"avatarUrl": "https://media.forgecdn.net/avatars/1072/635/638608605127616799.webp",
-		appWeb: [AppWeb.Web],
-		os: [OperatingSystem.Windows]
-	},
-	{
-		"id": 87913,
-		"name": "Black Myth: Wukong",
-		"image": "https://media.forgecdn.net/game-box-art/87913_d11689b8-643e-48b7-be11-162aed829cc2.webp",
-		"avatarUrl": "https://media.forgecdn.net/avatars/1064/287/638597465341275390.webp",
-		os: [OperatingSystem.Windows],
-		appWeb: [AppWeb.Web],
-		info: <>Mods are available on <a href="https://www.nexusmods.com/blackmythwukong" target="_blank">Nexus</a></>
-	},
-	{
-		"id": 88042,
-		"name": "Dragon Age: The Veilguard",
-		"image": "https://media.forgecdn.net/game-box-art/88042_d9d3a3e1-febb-4158-88d2-e3379a1f4116.webp",
-		"avatarUrl": "https://media.forgecdn.net/avatars/1072/606/638608587285850600.webp",
-		os: [OperatingSystem.Windows],
-		appWeb: [AppWeb.Web],
-		info: <i>Unknown on how mods are made and installed as of yet</i>
+		"avatarUrl": "https://media.forgecdn.net/avatars/1072/635/638608605127616799.webp"
 },
 	{
-		id: 432,
-		name: "Minecraft",
-		image: "https://static-cdn.jtvnw.net/ttv-boxart/Minecraft-285x380.jpg",
-		avatarUrl: "https://media.forgecdn.net/avatars/652/748/638054969446166748.png",
-		appWeb: [AppWeb.Standalone, AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Linux, OperatingSystem.Mac]
+		"id": 432,
+		"name": "Minecraft",
+		"image": "https://static-cdn.jtvnw.net/ttv-boxart/Minecraft-285x380.jpg",
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/748/638054969446166748.png"
 	},
 	{
 		"id": 65,
 		"name": "StarCraft II",
 		"image": "https://media.forgecdn.net/game-tiles/StarCraft+II+Tile.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/756/638054971315935359.png",
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/756/638054971315935359.png"
 
 	},
 	{
 		"id": 64,
 		"name": "The Secret World",
 		"image": "https://media.forgecdn.net/game-tiles/tsw.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/760/638054972345226215.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac]
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/760/638054972345226215.png"
 	},
 	{
 		"id": 4593,
@@ -87,17 +34,13 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 69271,
 		"name": "Minecraft Dungeons",
 		"image": "https://media.forgecdn.net/game-tiles/minecraft-dungeons.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/749/638054969632688688.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows]
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/749/638054969632688688.png"
 	},
 	{
 		"id": 80345,
 		"name": "Dwerve",
 		"image": "https://cfcore-assets.forgecdn.net/game-tiles/f1e5ea74-2e6c-4873-be61-3fcbfdd2c972.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/591/603/637962707596791305.png",
-		os: [OperatingSystem.Windows, OperatingSystem.Mac, OperatingSystem.Linux],
-		appWeb: [AppWeb.Web]
+		"avatarUrl": "https://media.forgecdn.net/avatars/591/603/637962707596791305.png"
 	},
 	{
 		"id": 66004,
@@ -151,10 +94,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 78017,
 		"name": "Dyson Sphere Program",
 		"image": "https://media.forgecdn.net/game-tiles/dyson-sphere-program.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/341/135/637483823201039296.png",
-		os: [OperatingSystem.Windows],
-		appWeb: [AppWeb.Web],
-		info: <>Use <a href="https://thunderstore.io/" target="_blank">Thunderstore Mod Manager</a></>
+		"avatarUrl": "https://media.forgecdn.net/avatars/341/135/637483823201039296.png"
 	},
 	{
 		"id": 78019,
@@ -178,26 +118,19 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 78062,
 		"name": "The Sims 4",
 		"image": "https://media.forgecdn.net/game-tiles/Sims+4+Tile.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/315/638053972646247897.png",
-		appWeb: [AppWeb.Standalone, AppWeb.Web, AppWeb.OverwolfApp],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac]
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/315/638053972646247897.png"
 	},
 	{
 		"id": 78135,
 		"name": "Demeo",
 		"image": "https://cfcore-assets.forgecdn.net/game-tiles/eaf07d14-8695-4f69-bd0c-78af44f94b4c.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/468/250/637751406649699690.png",
-		os: [OperatingSystem.Windows, OperatingSystem.Mac],
-		appWeb: [AppWeb.Web],
-		info: <a href="https://github.com/orendain/DemeoMods/wiki#installation" target="_blank">Installation of mods</a>
+		"avatarUrl": "https://media.forgecdn.net/avatars/468/250/637751406649699690.png"
 	},
 	{
 		"id": 78163,
 		"name": "Astro Colony",
 		"image": "https://cfcore-assets.forgecdn.net/game-tiles/9d62cdd4-285f-4211-85cd-75864b8eb670.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/738/638054966690576901.png",
-		appWeb: [AppWeb.InGame],
-		os: [OperatingSystem.Windows]
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/738/638054966690576901.png"
 	},
 	{
 		"id": 78496,
@@ -233,10 +166,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 82203,
 		"name": "Conquer Online",
 		"image": "https://media.forgecdn.net/game-box-art/82203_173e1bb2-caef-4dcb-a2e5-2a5e4369d25a.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/798/17/638159578481828194.png",
-		os: [OperatingSystem.Unknown],
-		appWeb: [AppWeb.Unknown],
-		info: <i>This seems to be an MMORPG, where people cheat using mods? Very much Pay-to-Win.</i>
+		"avatarUrl": "https://media.forgecdn.net/avatars/798/17/638159578481828194.png"
 	},
 	{
 		"id": 83357,
@@ -254,10 +184,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 83374,
 		"name": "ARK Survival Ascended",
 		"image": "https://cfcore-assets.forgecdn.net/game-tiles/ebb32c51-bda5-419c-8ac5-663b02598084.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/858/778/638264250839731334.png",
-		os: [OperatingSystem.Windows, OperatingSystem.PlayStation, OperatingSystem.Xbox],
-		appWeb: [AppWeb.InGame],
-		info: <>Modding is done from <a href="https://support.curseforge.com/en/support/solutions/articles/9000232983-how-to-install-ark-survival-ascended-mods-in-game" target="_blank">in-game</a> only.</>
+		"avatarUrl": "https://media.forgecdn.net/avatars/858/778/638264250839731334.png"
 	},
 	{
 		"id": 83387,
@@ -269,10 +196,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 83388,
 		"name": "Company of Heroes 3",
 		"image": "https://media.forgecdn.net/game-box-art/83388_d0edefea-a098-43ff-98d7-9b1a755c6362.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/783/695/638131888835880785.png",
-		os: [OperatingSystem.Windows],
-		appWeb: [AppWeb.Web],
-		info: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2946936025" target="_blank">Modding Guide</a>
+		"avatarUrl": "https://media.forgecdn.net/avatars/783/695/638131888835880785.png"
 	},
 	{
 		"id": 83431,
@@ -302,10 +226,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 83452,
 		"name": "Crime Boss: Rockay City",
 		"image": "https://media.forgecdn.net/game-box-art/83452_258c5d69-4cdb-4a2c-8711-ba9bf0488a9e.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/796/15/638155854691369224.png",
-		os: [OperatingSystem.Windows],
-		appWeb: [AppWeb.Web],
-		info: <>Mods also available on Nexus and <a href="https://modworkshop.net/g/crimeboss" target="_blank">Modworkshop</a></>
+		"avatarUrl": "https://media.forgecdn.net/avatars/796/15/638155854691369224.png"
 	},
 	{
 		"id": 83453,
@@ -323,9 +244,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 83461,
 		"name": "Darkest Dungeon II",
 		"image": "https://media.forgecdn.net/game-box-art/83461_f3a99fd8-5b80-41ae-8faa-907d58b63d3d.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/796/643/638157025363494516.png",
-		os: [OperatingSystem.Windows, OperatingSystem.Mac],
-		appWeb: [AppWeb.Unknown]
+		"avatarUrl": "https://media.forgecdn.net/avatars/796/643/638157025363494516.png"
 	},
 	{
 		"id": 83462,
@@ -343,10 +262,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 83634,
 		"name": "Age of Wonders 4",
 		"image": "https://media.forgecdn.net/game-box-art/83634_443ee334-e113-42a4-bcd0-19fb122c5fc8.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/812/602/638186253706079500.png",
-		os: [OperatingSystem.Windows],
-		appWeb: [AppWeb.Unknown],
-		info: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2980797677" target="_blank">Manual installation or via Steam</a>
+		"avatarUrl": "https://media.forgecdn.net/avatars/812/602/638186253706079500.png"
 	},
 	{
 		"id": 83644,
@@ -364,9 +280,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 83647,
 		"name": "Brinefall",
 		"image": "https://media.forgecdn.net/game-box-art/83647_49fa2f9f-a969-4eb1-8ca1-e6daaf4d3a74.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/813/459/638187994049346597.png",
-		os: [OperatingSystem.Windows],
-		appWeb: [AppWeb.Web]
+		"avatarUrl": "https://media.forgecdn.net/avatars/813/459/638187994049346597.png"
 	},
 	{
 		"id": 83648,
@@ -420,10 +334,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 85196,
 		"name": "Palworld",
 		"image": "https://cfcore-assets.forgecdn.net/game-tiles/88960e8a-e16b-42d5-9224-1754b66d2fee.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/936/141/638413534976321166.jpg",
-		os: [OperatingSystem.Windows],
-		appWeb: [AppWeb.Standalone, AppWeb.OverwolfApp, AppWeb.Web],
-		info: <i>Does not behave well with Microsoft Gamepass</i>
+		"avatarUrl": "https://media.forgecdn.net/avatars/936/141/638413534976321166.jpg"
 	},
 	{
 		"id": 85440,
@@ -435,9 +346,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 85913,
 		"name": "Manor Lords",
 		"image": "https://media.forgecdn.net/game-box-art/85913_f4c8d148-de72-472d-9ed9-f6f2f066847a.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/981/997/638489322552047262.png",
-		appWeb: [AppWeb.Web],
-
+		"avatarUrl": "https://media.forgecdn.net/avatars/981/997/638489322552047262.png"
 	},
 	{
 		"id": 5001,
@@ -503,9 +412,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 1,
 		"name": "World of Warcraft",
 		"image": "https://media.forgecdn.net/game-box-art/1_9b0a8ff4-90c0-4d72-967c-c2c60b8029f7.webp",
-		"avatarUrl": "https://media.forgecdn.net/avatars/63/986/636148993918069601.png",
-		os: [OperatingSystem.Windows, OperatingSystem.Mac],
-		appWeb: [AppWeb.Standalone, AppWeb.OverwolfApp, AppWeb.Web]
+		"avatarUrl": "https://media.forgecdn.net/avatars/63/986/636148993918069601.png"
 	},
 	{
 		"id": 68,
@@ -535,17 +442,13 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 335,
 		"name": "Runes of Magic",
 		"image": "https://media.forgecdn.net/game-tiles/Runes+of+Magic+Tile.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/76/698/636173120361240569.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac]
+		"avatarUrl": "https://media.forgecdn.net/avatars/76/698/636173120361240569.png"
 	},
 	{
 		"id": 424,
 		"name": "Rift",
 		"image": "https://media.forgecdn.net/game-tiles/rift_tile.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/751/638054969923607845.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac]
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/751/638054969923607845.png"
 	},
 	{
 		"id": 447,
@@ -557,9 +460,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 423,
 		"name": "World of Tanks",
 		"image": "https://media.forgecdn.net/game-tiles/World+of+Tanks+Tile.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/77/677/636174916166063366.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac]
+		"avatarUrl": "https://media.forgecdn.net/avatars/77/677/636174916166063366.png"
 	},
 	{
 		"id": 449,
@@ -583,10 +484,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 465,
 		"name": "Counter-Strike: Global Offensive",
 		"image": "https://www.gamespot.com/a/uploads/scale_medium/mig/7/2/0/5/2227205-i2cs9uzmq4yua.jpg",
-		"avatarUrl": null,
-		os: [OperatingSystem.Windows, OperatingSystem.Linux],
-		appWeb: [AppWeb.Unknown],
-		info: <>Looks like <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2009480990" target="_blank">3rd party tools</a> are involved</>
+		"avatarUrl": null
 	},
 	{
 		"id": 454,
@@ -598,10 +496,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 4401,
 		"name": "Kerbal Space Program",
 		"image": "https://media.forgecdn.net/game-tiles/Kerbal+Space+Program+Tile.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/747/638054969273937292.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac, OperatingSystem.Linux],
-		info: <>You should probably use <a href={"https://github.com/KSP-CKAN/CKAN/wiki/User-guide"} target={"_blank"}>CKAN</a> instead</>
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/747/638054969273937292.png"
 	},
 	{
 		"id": 496,
@@ -625,9 +520,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 455,
 		"name": "The Elder Scrolls Online",
 		"image": "https://media.forgecdn.net/game-tiles/The+Elder+Scrolls+Online+Tile.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/77/188/636173283407439352.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac]
+		"avatarUrl": "https://media.forgecdn.net/avatars/77/188/636173283407439352.png"
 	},
 	{
 		"id": 504,
@@ -645,19 +538,13 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 540,
 		"name": "7 Days to Die",
 		"image": "https://media.forgecdn.net/game-box-art/540_a36ac8de-f300-461c-bd63-6bd6c22975c3.webp",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/736/638054965886871014.png",
-		appWeb: [AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac, OperatingSystem.Linux],
-		info: <>You should use <a href="https://7daystodiemods.com/how-to-install-7-days-to-die-mods/" target="_blank">this guide to install mods</a></>
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/736/638054965886871014.png"
 	},
 	{
 		"id": 48907,
 		"name": "Beat It!",
 		"image": null,
-		"avatarUrl": null,
-		appWeb: [AppWeb.Unknown],
-		os: [OperatingSystem.Unknown],
-		info: <i>We have no info on this, authors can create projects for this</i>
+		"avatarUrl": null
 	},
 	{
 		"id": 4892,
@@ -675,10 +562,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 608,
 		"name": "Darkest Dungeon",
 		"image": "https://media.forgecdn.net/game-tiles/Darkest+Dungeon+Tile.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/742/638054967772267278.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac],
-		info: <a href="https://catalogue.smods.ru/how-to-install-mods-for-darkest-dungeon" target="_blank">Info on how to install mods</a>
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/742/638054967772267278.png"
 	},
 	{
 		"id": 4482,
@@ -690,27 +574,19 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 51667,
 		"name": "Dead Island 2",
 		"image": "https://media.forgecdn.net/game-box-art/51667_3b7ab064-2fa9-4ab3-a2d4-8638de2712d6.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/796/26/638155866447620482.png",
-		os: [OperatingSystem.Windows],
-		appWeb: [AppWeb.Web],
+		"avatarUrl": "https://media.forgecdn.net/avatars/796/26/638155866447620482.png"
 	},
 	{
 		"id": 6999,
 		"name": "Big Pharma",
 		"image": "https://media.forgecdn.net/game-tiles/Big+Pharma+Tile.jpg",
-		"avatarUrl": null,
-		appWeb: [AppWeb.Unknown],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac, OperatingSystem.Linux],
-		info: <><a href="https://bigpharma.fandom.com/wiki/Modding" target="_blank">Info on how to mod</a>, and <a href="https://www.bigpharmagame.com/modding.html" target="_blank">how to install mods</a></>
+		"avatarUrl": null
 	},
 	{
 		"id": 4819,
 		"name": "American Truck Simulator",
 		"image": "https://media.forgecdn.net/game-box-art/4819_2d153d76-4dee-4c43-b7bb-d39ce9cfad8b.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/739/638054967147418836.png",
-		os: [OperatingSystem.Windows, OperatingSystem.Mac, OperatingSystem.Linux],
-		appWeb: [AppWeb.Web],
-		info: <>Use <a href="https://truckymods.io/standalone-client" target="_blank">Trucky Desktop Mods Manager</a> to install and handle mods, or Steam Workshop</>
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/739/638054967147418836.png"
 	},
 	{
 		"id": 4611,
@@ -728,18 +604,13 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 669,
 		"name": "Stardew Valley",
 		"image": "https://media.forgecdn.net/game-tiles/Stardew+Valley+Tile.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/144/99/636553639128471675.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Standalone, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac]
+		"avatarUrl": "https://media.forgecdn.net/avatars/144/99/636553639128471675.png"
 	},
 	{
 		"id": 6222,
 		"name": "BattleTech",
 		"image": "https://media.forgecdn.net/game-tiles/BattleTech+Tile.jpg",
-		"avatarUrl": null,
-		appWeb: [AppWeb.Unknown],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac, OperatingSystem.Linux],
-		info: <i>Unknown on how to mod, probably outdated?</i>
+		"avatarUrl": null
 	},
 	{
 		"id": 22191,
@@ -769,18 +640,13 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 57483,
 		"name": "Days Gone",
 		"image": "https://media.forgecdn.net/game-tiles/days-gone-box.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/720/638054901333002711.png",
-		os: [OperatingSystem.Windows],
-		appWeb: [AppWeb.Unknown],
-		info: <i>Manual installation of "Pak"-files</i>
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/720/638054901333002711.png"
 	},
 	{
 		"id": 4455,
 		"name": "Secret World Legends",
 		"image": "https://media.forgecdn.net/game-tiles/Secret+World+Legends+Tile.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/754/638054970768371241.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac]
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/754/638054970768371241.png"
 	},
 	{
 		"id": 6647,
@@ -822,9 +688,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 61489,
 		"name": "Surviving Mars",
 		"image": "https://media.forgecdn.net/game-tiles/Surviving+Mars+Tile.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/758/638054971686927279.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac]
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/758/638054971686927279.png"
 	},
 	{
 		"id": 64244,
@@ -848,10 +712,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 67850,
 		"name": "Bloons TD 6",
 		"image": "https://media.forgecdn.net/game-tiles/bloons-td-6.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/343/611/637488990211647743.png",
-		os: [OperatingSystem.Windows, OperatingSystem.Mac],
-		appWeb: [AppWeb.Unknown],
-		info: <>Needs Steam version, <a href="https://hemisemidemipresent.github.io/btd6-modding-tutorial/" target="_blank">modding info</a></>
+		"avatarUrl": "https://media.forgecdn.net/avatars/343/611/637488990211647743.png"
 	},
 	{
 		"id": 68013,
@@ -869,18 +730,13 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 69761,
 		"name": "Among Us",
 		"image": "https://media.forgecdn.net/game-tiles/among-us.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/737/638054966435845908.png",
-		os: [OperatingSystem.Windows],
-		appWeb: [AppWeb.Web],
-		info: <a href="https://support.curseforge.com/en/support/solutions/articles/9000198451-how-to-install-and-play-among-us-mods" target="_blank">How to install mods</a>
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/737/638054966435845908.png"
 	},
 	{
 		"id": 70667,
 		"name": "Chronicles of Arcadia",
 		"image": "https://cfcore-assets.forgecdn.net/game-tiles/7ad5975f-81c5-4ffb-b809-c283dc1ac986.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/741/638054967544087957.png",
-		appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
-		os: [OperatingSystem.Windows, OperatingSystem.Mac]
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/741/638054967544087957.png"
 	},
 	{
 		"id": 70752,
@@ -892,9 +748,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 71010,
 		"name": "Darkest Dungeon 2",
 		"image": "https://s2.gaming-cdn.com/images/products/7783/orig/darkest-dungeon-ii-pc-spel-epic-games-cover.jpg",
-		"avatarUrl": null,
-		os: [OperatingSystem.Windows, OperatingSystem.Mac],
-		appWeb: [AppWeb.Unknown]
+		"avatarUrl": null
 	},
 	{
 		"id": 71638,
@@ -912,10 +766,7 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 72458,
 		"name": "Baldur's Gate 3",
 		"image": "https://media.forgecdn.net/game-box-art/72458_a2e89bc2-8004-4ffd-8a5f-157f88184aa7.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/862/894/638271743496364735.png",
-		os: [OperatingSystem.Windows, OperatingSystem.Mac],
-		appWeb: [AppWeb.Web],
-		info: <i>Mods are installed by dropping into Mods-folder</i>
+		"avatarUrl": "https://media.forgecdn.net/avatars/862/894/638271743496364735.png"
 	},
 	{
 		"id": 75009,
@@ -941,6 +792,4 @@ const GamesInformation: GameInfoItem[] = [
 		"image": "https://media.forgecdn.net/game-box-art/77548_0160912d-0339-40bf-a269-8a3a82a1465f.png",
 		"avatarUrl": "https://media.forgecdn.net/avatars/777/965/638121555152445726.png"
 	}
-];
-
-export default GamesInformation;
+]

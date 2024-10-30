@@ -56,6 +56,7 @@ export default function Home(): JSX.Element {
 							<div className={clsx("col col--12")}>
 								<h1>CurseForge Games</h1>
 								<p>Find information about the games supported by CurseForge, and if they are available through any of the apps, or only through the website.</p>
+								<p>If the game cannot be found on the website (<a href="https://www.curseforge.com/games" target="_blank">https://www.curseforge.com/games</a>), it is probably on this list, because authors can create projects with these games.</p>
 								<p>If we are missing some data, or if something is wrong, please <a href="https://github.com/CurseForgeCommunity/curseforgecommunity.github.io/issues/new?assignees=&labels=game-info&projects=&template=game-info.md&title=Invalid+game+info%3A+%3Cname+here%3E" target="_blank">open an issue here</a></p>
 							</div>
 						</div>
