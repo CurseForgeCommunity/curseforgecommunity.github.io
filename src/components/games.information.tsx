@@ -437,13 +437,15 @@ const GamesInformation: GameInfoItem[] = [
 		"image": "https://media.forgecdn.net/game-box-art/85913_f4c8d148-de72-472d-9ed9-f6f2f066847a.png",
 		"avatarUrl": "https://media.forgecdn.net/avatars/981/997/638489322552047262.png",
 		appWeb: [AppWeb.Web],
-
 	},
 	{
 		"id": 5001,
 		"name": "Final Fantasy II",
 		"image": "https://media.forgecdn.net/game-box-art/5001_2e6573c1-186c-4259-9d1b-ead9dad7d381.png",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
+		info: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2787152070" target="_blank">FF2: Complete Modding Guide and Index</a>
 	},
 	{
 		"id": 11805,
@@ -455,7 +457,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 5021,
 		"name": "Final Fantasy V",
 		"image": "https://media.forgecdn.net/game-box-art/5021_e7882608-f934-457d-8b8f-1b584a9df1c0.png",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
+		info: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2788533275" target="_blank">FF5: Complete Modding Guide and Index</a>
 	},
 	{
 		"id": 4773,
@@ -473,7 +478,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 5230,
 		"name": "Final Fantasy I",
 		"image": "https://media.forgecdn.net/game-box-art/5230_eb60e5f3-b539-4f2b-b76b-21ba5df40519.png",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
+		info: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2786697005" target="_blank">FF1: Complete Modding Guide and Index</a>
 	},
 	{
 		"id": 8686,
@@ -511,25 +519,37 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 68,
 		"name": "Fallout 3",
 		"image": "https://media.forgecdn.net/game-tiles/fallout-3.jpg",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
+		info: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2945198896" target="_blank">Fallout 3 2024 Essential Modding Guide</a>
 	},
 	{
 		"id": 4741,
 		"name": "Final Fantasy IV",
 		"image": "https://media.forgecdn.net/game-box-art/4741_b22d5fcb-ee2f-445a-8f1e-958be5a3889c.png",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
+		info: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2787588996" target="_blank">FF4: Complete Modding Guide and Index</a>
 	},
 	{
 		"id": 5026,
 		"name": "Final Fantasy III",
 		"image": "https://media.forgecdn.net/game-box-art/5026_3912d352-bdf6-496a-bbee-a07d2377771b.png",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
+		info: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2787489586" target="_blank">FF3: Complete Modding Guide and Index</a>
 	},
 	{
 		"id": 8612,
 		"name": "Euro Truck Simulator",
 		"image": "https://media.forgecdn.net/game-tiles/euro-truck-simulator.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/375/780/637551299565475836.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/375/780/637551299565475836.png",
+		os: [OperatingSystem.Windows, OperatingSystem.Mac],
+		appWeb: [AppWeb.Unknown],
+		info: <a href="https://steamcommunity.com/sharedfiles/filedetails/?l=english&id=626346497" target="_blank">Information on how to mod ETS</a>
 	},
 	{
 		"id": 335,
@@ -551,7 +571,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 447,
 		"name": "Fallout: New Vegas",
 		"image": "https://media.forgecdn.net/game-tiles/fallout-new-vegas.jpg",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
+		info: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=741846155" target="_blank">How To Properly Mod Your Fallout: New Vegas</a>
 	},
 	{
 		"id": 423,
@@ -607,7 +630,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 496,
 		"name": "Grand Theft Auto V",
 		"image": "",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows, OperatingSystem.PlayStation, OperatingSystem.Xbox],
+		appWeb: [AppWeb.Unknown],
+		info: <>Mods are available on Nexus and <a href="https://www.gta5-mods.com/" target="_blank">GTA5-Mods</a></>
 	},
 	{
 		"id": 4619,
@@ -633,13 +659,19 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 504,
 		"name": "Euro Truck Simulator 2",
 		"image": "https://media.forgecdn.net/game-tiles/euro-truck-simulator-2.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/375/747/637551180022713994.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/375/747/637551180022713994.png",
+		os: [OperatingSystem.Windows, OperatingSystem.Mac, OperatingSystem.Linux],
+		appWeb: [AppWeb.Unknown],
+		info: <>Steam Workshop and <a href="https://truckymods.io/" target="_blank">Trucky Mods</a></>
 	},
 	{
 		"id": 661,
 		"name": "Factorio",
 		"image": null,
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/743/638054968335915948.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/743/638054968335915948.png",
+		os: [OperatingSystem.Windows, OperatingSystem.Mac, OperatingSystem.Linux],
+		appWeb: [AppWeb.Unknown],
+		info: <a href="https://wiki.factorio.com/index.php?title=Installing_Mods" target="_blank">How to install mods</a>
 	},
 	{
 		"id": 540,
@@ -830,13 +862,19 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 64244,
 		"name": "Farming Simulator 19",
 		"image": "https://media.forgecdn.net/game-tiles/Farming+Simulator+19+Tile.jpg",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows, OperatingSystem.Mac],
+		appWeb: [AppWeb.Unknown],
+		info: <><a href="https://www.farming-simulator.com/mods.php" target="_blank">Mods</a>, <a href="https://steamcommunity.com/app/787860/discussions/0/1741103267287272272/" target="_blank">How to mod?</a></>
 	},
 	{
 		"id": 65814,
 		"name": "Fallout 76",
 		"image": "https://media.forgecdn.net/game-tiles/Fallout+76+Tile.png",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
+		info: <><a href="https://www.nexusmods.com/fallout76/articles/42" target="_blank">Nexus</a>, <a href="https://www.makeuseof.com/how-to-install-mods-fallout-76/" target="_blank">MakeUseOf Guide</a></>
 	},
 	{
 		"id": 66022,
