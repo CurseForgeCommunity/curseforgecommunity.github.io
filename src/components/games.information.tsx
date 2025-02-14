@@ -81,7 +81,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 4593,
 		"name": "Final Fantasy XV",
 		"image": "https://media.forgecdn.net/game-box-art/4593_d0ce595c-ffde-4ef6-a734-051917f0a732.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/810/300/638181947470265030.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/810/300/638181947470265030.png",
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Web],
+		info: <>CF Site and Steam Workshop</>
 	},
 	{
 		"id": 69271,
@@ -115,13 +118,19 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 646,
 		"name": "Fallout 4",
 		"image": "https://media.forgecdn.net/game-tiles/fallout-4.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/744/638054968700723608.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/744/638054968700723608.png",
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Web],
+		info: <a href="https://wiki.nexusmods.com/index.php/Fallout_4_Mod_Installation" target="_blank">Fallout 4 Mod Installation</a>
 	},
 	{
 		"id": 73492,
 		"name": "Kerbal Space Program 2",
 		"image": "https://media.forgecdn.net/game-box-art/73492_c3aa04ff-bec2-4b82-86ab-ca86915fd396.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/777/919/638121496998142658.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/777/919/638121496998142658.png",
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Web],
+		info: <>Use <a href="https://github.com/KSP-CKAN/CKAN/wiki/User-guide" target="_blank">CKAN</a></>
 	},
 	{
 		"id": 72430,
@@ -160,7 +169,9 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 78019,
 		"name": "Loop Hero",
 		"image": "https://media.forgecdn.net/game-tiles/loop-hero.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/352/5/637507030455736482.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/352/5/637507030455736482.png",
+		os: [OperatingSystem.Windows, OperatingSystem.Mac, OperatingSystem.Linux],
+		appWeb: [AppWeb.Unknown],
 	},
 	{
 		"id": 78022,
@@ -203,7 +214,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 78496,
 		"name": "Hero's Hour",
 		"image": "https://cfcore-assets.forgecdn.net/game-tiles/23dbcced-b587-40d2-8a61-e5c61adbd7e0.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/813/956/638188908760737515.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/813/956/638188908760737515.png",
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Web],
+		info: <>CF Site and Steam Workshop</>
 	},
 	{
 		"id": 80016,
@@ -221,7 +235,9 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 81975,
 		"name": "LEAP",
 		"image": "https://cfcore-assets.forgecdn.net/game-tiles/c451f93f-984d-4999-9e17-2226fb585334.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/640/29/638041271386728785.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/640/29/638041271386728785.png",
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Web],
 	},
 	{
 		"id": 82047,
@@ -331,7 +347,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 83462,
 		"name": "Endless Dungeon",
 		"image": "https://media.forgecdn.net/game-box-art/83462_c87998e3-99ef-4746-9b82-a1356b495b14.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/796/651/638157031015937085.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/796/651/638157031015937085.png",
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Web],
+		info: <i>Unknown modding process</i>
 	},
 	{
 		"id": 83463,
@@ -429,7 +448,9 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 85440,
 		"name": "Helldivers 2",
 		"image": "https://cfcore-assets.forgecdn.net/game-tiles/4c15b7e5-8bd9-4073-b233-9543f6c81b4d.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/952/28/638441936476298295.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/952/28/638441936476298295.png",
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
 	},
 	{
 		"id": 85913,
@@ -437,6 +458,8 @@ const GamesInformation: GameInfoItem[] = [
 		"image": "https://media.forgecdn.net/game-box-art/85913_f4c8d148-de72-472d-9ed9-f6f2f066847a.png",
 		"avatarUrl": "https://media.forgecdn.net/avatars/981/997/638489322552047262.png",
 		appWeb: [AppWeb.Web],
+		os: [OperatingSystem.Windows],
+		info: <a href="https://www.youtube.com/watch?v=b92QFUw1iL4&ab_channel=MultiDarkZen" target="_blank">Modding Guide</a>
 	},
 	{
 		"id": 5001,
@@ -466,7 +489,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 4773,
 		"name": "Final Fantasy VI",
 		"image": "https://media.forgecdn.net/game-box-art/4773_0069c4c2-18b0-4885-a439-25adb81b9a82.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/745/638054968911430508.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/745/638054968911430508.png",
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Web],
+		info: <><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2788537097" target="_blank">FF6: Complete Modding Guide and Index</a>, <a href="https://www.nexusmods.com/finalfantasy6/articles/2" target="_blank">Nexus: Installation instructions</a></>
 	},
 	{
 		"id": 8892,
@@ -487,7 +513,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 8686,
 		"name": "Jurassic Park: Operation Genesis",
 		"image": "https://media.forgecdn.net/game-tiles/jurassic-park-operation-genesis.jpg",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
+		info: <>Manually, follow devs readme files</>
 	},
 	{
 		"id": 5002,
@@ -588,7 +617,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 449,
 		"name": "The Elder Scrolls V: Skyrim",
 		"image": "https://media.forgecdn.net/game-tiles/Skyrim+Tile.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/77/689/636174976208356224.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/77/689/636174976208356224.png",
+		appWeb: [AppWeb.Web],
+		os: [OperatingSystem.Windows],
+		info: <>Several different options for modding, look them up yourself</>
 	},
 	{
 		"id": 632,
@@ -639,13 +671,19 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 4619,
 		"name": "The Last of Us",
 		"image": "https://media.forgecdn.net/game-box-art/4619_47772a41-a580-4203-b5c7-ea53e4ed5547.png",
-		"avatarUrl": "https://media.forgecdn.net/avatars/796/3/638155844409162919.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/796/3/638155844409162919.png",
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
+		info: <a href="https://www.nexusmods.com/thelastofuspart1/mods/8" target="_blank">Fluffy Mod Manager</a>
 	},
 	{
 		"id": 6820,
 		"name": "Kenshi",
 		"image": "https://media.forgecdn.net/game-tiles/Kenshi+Tile.jpg",
-		"avatarUrl": null
+		"avatarUrl": null,
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Unknown],
+		info: <>Steam Workshop</>
 	},
 	{
 		"id": 455,
@@ -777,7 +815,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 22191,
 		"name": "Frostpunk",
 		"image": "https://media.forgecdn.net/game-tiles/Frostpunk+Tile.jpg",
-		"avatarUrl": null
+		"avatarUrl": null,
+		appWeb: [AppWeb.Web],
+		os: [OperatingSystem.Windows, OperatingSystem.Mac],
+		info: <i>Unknown</i>
 	},
 	{
 		"id": 22184,
@@ -842,7 +883,10 @@ const GamesInformation: GameInfoItem[] = [
 		"id": 58053,
 		"name": "Jurassic World Evolution",
 		"image": "https://media.forgecdn.net/game-tiles/jurassic-world-evolution.jpg",
-		"avatarUrl": "https://media.forgecdn.net/avatars/652/746/638054969068288078.png"
+		"avatarUrl": "https://media.forgecdn.net/avatars/652/746/638054969068288078.png",
+		os: [OperatingSystem.Windows],
+		appWeb: [AppWeb.Web],
+		info: <>CF Site, Follow devs instructions, <a href="https://www.youtube.com/watch?v=qDuF_TlzoIU&ab_channel=BestInSlot" target="_blank">https://www.youtube.com/watch?v=qDuF_TlzoIU&ab_channel=BestInSlot</a></>
 	},
 	{
 		"id": 58234,
