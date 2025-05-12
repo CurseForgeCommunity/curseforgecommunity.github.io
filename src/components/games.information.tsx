@@ -338,7 +338,7 @@ const GamesInformation: GameInfoItem[] = [
         image: "https://media.forgecdn.net/game-tiles/Kerbal+Space+Program+Tile.jpg",
         avatarUrl:
             "https://media.forgecdn.net/avatars/652/747/638054969273937292.png",
-        appWeb: [AppWeb.OverwolfApp, AppWeb.Web],
+        appWeb: [AppWeb.Web],
         os: [
             OperatingSystem.Windows,
             OperatingSystem.Mac,
