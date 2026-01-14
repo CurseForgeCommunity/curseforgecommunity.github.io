@@ -1484,6 +1484,18 @@ const GamesInformation: GameInfoItem[] = [
         appWeb: [AppWeb.Web],
         os: [OperatingSystem.Windows],
     },
+    {
+        id: 70216,
+        name: "Hytale",
+        image: "https://media.forgecdn.net/game-box-art/70216_fa616440-8ef1-4dd1-80dc-1bd2b2d92fc0.jpg",
+        avatarUrl: "",
+        appWeb: [AppWeb.Web, AppWeb.OverwolfApp, AppWeb.Standalone],
+        os: [
+            OperatingSystem.Windows,
+            OperatingSystem.Mac,
+            OperatingSystem.Linux,
+        ],
+    },
 ];
 
 export default GamesInformation;
