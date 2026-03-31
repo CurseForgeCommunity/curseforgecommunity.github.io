@@ -1496,6 +1496,38 @@ const GamesInformation: GameInfoItem[] = [
             OperatingSystem.Linux,
         ],
     },
+    {
+        id: 88849,
+        name: "inZOI",
+        image: "https://cfcore-assets.forgecdn.net/game-tiles/7398ff8f-718c-4eba-9f67-e08a5fef68df.png",
+        avatarUrl: "",
+        appWeb: [AppWeb.InGame],
+        os: [OperatingSystem.Windows, OperatingSystem.Mac],
+        info: (
+            <>
+                The mods are installed from inside the game menu, only Windows
+                supports mods right now
+            </>
+        ),
+    },
+    {
+        id: 87986,
+        name: "Hogwarts Legacy",
+        image: "https://cfcore-assets.forgecdn.net/game-tiles/99f48389-b49e-4b9f-b6ef-a0979638cf5b.jpg",
+        avatarUrl: "",
+        appWeb: [AppWeb.InGame],
+        os: [
+            OperatingSystem.Windows,
+            OperatingSystem.Xbox,
+            OperatingSystem.PlayStation,
+        ],
+        info: (
+            <>
+                The mods are installed from inside the game menu, only Windows
+                supports mods right now
+            </>
+        ),
+    },
 ];
 
 export default GamesInformation;
