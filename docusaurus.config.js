@@ -21,6 +21,14 @@ const config = {
     locales: ["en"],
   },
 
+  scripts: [
+    {
+      defer: true,
+      src: 'https://user-stats.itssimple.se/script.js',
+      'data-website-id': '6dc2e4c5-a19b-4de1-a794-eda6c0611d26'
+    }
+  ],
+
   presets: [
     [
       "classic",
