@@ -1528,6 +1528,23 @@ const GamesInformation: GameInfoItem[] = [
             </>
         ),
     },
+    {
+        id: 99078,
+        name: "Windrose",
+        image: "https://media.forgecdn.net/game-box-art/99078_e3efaee4-8f2e-4dcb-891a-413307a6129d.jpg",
+        avatarUrl: "",
+        appWeb: [AppWeb.Web],
+        os: [
+            OperatingSystem.Windows,
+        ],
+        info: (
+            <>
+                Instructions on how to install mods are usually found on the project page.
+                Usually you put files into the `Windrose\R5\Content\Paks` for single player,
+                and into `Windrose\R5\Builds\WindowsServer\R5\Content\Paks` for multi player.
+            </>
+        ),
+    },
 ];
 
 export default GamesInformation;
