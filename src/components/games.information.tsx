@@ -1533,9 +1533,9 @@ const GamesInformation: GameInfoItem[] = [
         name: "Windrose",
         image: "https://media.forgecdn.net/game-box-art/99078_e3efaee4-8f2e-4dcb-891a-413307a6129d.jpg",
         avatarUrl: "",
-        appWeb: [AppWeb.Web],
+        appWeb: [AppWeb.Web, AppWeb.Standalone, AppWeb.OverwolfApp],
         os: [
-            OperatingSystem.Windows,
+            OperatingSystem.Windows, 
         ],
         info: (
             <>
